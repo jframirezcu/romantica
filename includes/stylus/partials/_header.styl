@@ -1,0 +1,74 @@
+.header-container
+	padding 25px 0
+	.logo-container
+		// height 61px
+		// width 360px
+	.box-container
+		.play
+			font-size 0.7em
+			line-height 1.2
+			.on-air span
+				color var(--color1-x1)
+			.show
+				color var(--black-x0)
+			.song
+				color var(--color2-x2)
+		.live
+			font-size 0.7em
+			line-height 1.2
+		.box-desc
+			overflow hidden
+			padding-left 8px !important
+			p
+				text-overflow elipsis
+	.search-box
+		display unset
+		.icon-container
+			z-index 2
+		input
+			height 100%
+			border 1px solid var(--color2-x0)
+			border-left none
+			border-radius 35px
+			display none
+			z-index 3
+			background transparent
+			margin-left -10px
+			padding-left 19px
+	.main-rss
+		align-self center
+		text-align end
+		padding-left 0
+		.icon-container
+			background-color var(--color2-x2)
+			span
+				color  white
+				font-size 1.2em
+			&:hover
+				background-color var(--color1-x1)
+				text-decoration none
+				transition all .3s ease
+	.header-nav
+		margin-top 30px
+		width 100%
+		border-top 5px solid var(--color2-x0)
+		border-bottom 5px solid var(--color2-x0)
+		.nav-link
+			color var(--color2-x2)
+			display flex
+			align-items center
+			justify-content center
+			width 11%
+			font-weight bold
+			padding 15px 0px
+			&:hover, &:active, &:focus, &:focus-within
+				color var(--color1-x1)
+				border none
+				outline-offset 0px
+				transition background .5s ease
+		.our-city
+			width 18%
+	.banner-lg
+		margin-top 30px
+				
+			

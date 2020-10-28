@@ -1,0 +1,29 @@
+@import "nib"
+@import "base/*.styl"
+@import "icons/*.styl"
+
+@import "partials/_header.styl"
+@import "partials/_footer.styl"
+
+body
+	font-family "CeraPro"
+	font-weight normal
+	font-style normal
+	text-transform uppercase
+	height 100%
+	
+.container
+	max-width 1250px
+	
+h2
+	margin-bottom 0
+	
+a 
+	text-decoration none !important
+	
+.site-parallax
+	background-image url($img"parallax.png")
+	background-attachment fixed
+	background-position right top
+	background-repeat no-repeat
+	background-size 100%

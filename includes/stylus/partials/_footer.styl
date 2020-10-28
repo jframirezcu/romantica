@@ -1,0 +1,74 @@
+.footer-container
+	background linear-gradient(top, var(--color1-x1), var(--color1-x0))
+	padding-top 35px
+	position relative
+	.footer-bg-image
+		position absolute
+		height 577px
+		width 815px
+		right 0
+		bottom 0
+		opacity .6
+		z-index 1
+		@media (max-width 767px)
+			display none
+	.main-footer
+		.logo-container
+			margin-bottom 20px
+		.nav-rss-footer
+			margin-bottom 25px
+			.nav-footer-title
+				color white
+				text-transform uppercase
+				font-weight bold
+				margin-bottom 15px
+				font-weight bold
+				font-size 1.1em !important
+			.nav-link
+				color white
+				padding .2rem 1rem
+				font-size .9em
+			.main-rss
+				text-align end
+				.icon-container
+					background-color white
+					min-width 2.3em
+					min-height 2.3em
+					text-decoration none
+					&:not(:last-child)
+						margin-right 5px
+					span
+						color var(--color1-x1)
+						font-size 1.4em
+				@media (max-width 767px)
+					text-align center
+	.logos-footer-container
+		background rgba(0,0,0 ,0.2)
+		padding 20px 0
+		.logos-footer-contain
+			display flex
+			justify-content space-around
+			align-items center
+			a 
+				z-index 5
+			.candela-logo
+				height 83px
+			.w-100
+				display none
+				@media (max-width 767px)
+					display block
+					margin-bottom 20px
+	.company-container
+		background rgba(244, 13, 117, 1)
+		.company-footer
+			color white
+			display flex
+			align-items center
+			justify-content center
+			margin-bottom 0
+			padding-top 15px
+			padding-bottom 15px
+			p 
+				margin 0
+			img
+				margin-right 20px

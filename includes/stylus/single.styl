@@ -1,0 +1,102 @@
+@import "main.styl" 
+@import "partials/_small-components.styl"
+@import "partials/_aside-section.styl" 
+@import "partials/_feet-single-rss.styl" 
+
+p 
+	text-transform none
+
+@import "partials/_aside-section.styl" 
+.single-head
+	.single-main-img
+		border-radius 10px
+		margin-bottom 20px
+		img
+			width 100%
+			height 100%
+			object-fit fill
+	.single-title
+		color var(--color1-x1)
+		font-size 2.5em
+		font-weight bold
+		margin-bottom 20px
+	.single-sub-title
+		color var(--color2-x1)
+		font-weight bolder
+		font-size 1.25em	
+	.single-caption
+		display flex
+		justify-content space-between
+		margin-bottom 20px
+		border-bottom 5px solid var(--color1-x1)
+		
+		.single-date-author
+			display flex
+			align-items center
+			color var(--color2-x1)
+			font-size 0.85em
+			.icon-clock, .icon-person
+				padding-right 5px
+				font-size 1.2em
+			.single-date
+				margin-right 10px
+			.single-date, .single-author
+				display flex
+				align-items center
+				background var(--color2-x0)
+				margin-bottom 0
+				padding 5px 10px
+				border-radius 20px
+.single-text
+	margin-bottom 20px
+	h4
+		color var(--color2-x1)
+		font-weight bold
+		margin-bottom 20px
+	p
+		color var(--color2-x1)
+		font-size 1.25em 
+	span
+		color var(--color1-x1)
+		font-weight bold
+	.highlighted-txt
+		width 90%
+		margin 20px auto
+		color var(--color1-x1)
+		font-size 2.1em
+		text-align center
+		line-height 1.3
+		
+.second-img-container
+	margin-bottom 20px
+	
+.related-content
+	padding-top 10px
+	padding-bottom 10px
+	border-top 5px solid var(--color2-x2)
+	border-bottom 5px solid var(--color2-x2)
+	margin-bottom 20px
+	h5 
+		color var(--color2-x2)
+		font-weight bold
+		margin-bottom 15px
+	.related-content-item
+		display flex
+		border 1px solid var(--color2-x0)
+		border-radius 5px
+		align-items center
+		.thumb-wrap
+			height 94px
+			width 94px
+			margin-right 5px
+			border-radius 5px
+		p 
+			color var(--color2-x1)
+			font-weight bold
+			font-size 0.9em
+			margin-bottom 0	
+			line-height 1.2
+			overflow 
+
+.single-footer
+	margin-bottom 25px
