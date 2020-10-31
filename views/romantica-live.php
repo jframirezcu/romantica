@@ -23,6 +23,25 @@
 	<?php include 'includes/header.php'; ?>
     <!-- End Header -->
 
+    <!-- romantica-live container -->
+    <div class="container-fluid live-player-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="section-title-container">
+                        <div class="section-title">
+                            <h2>en vivo</h2>
+                            <span>en vivo</span>
+                        </div>
+                    </div>
+                    <div class="iframe-container">
+                        <iframe id="vrudo" class="vrudo" src="//rudo.video/live/romanticatv" width="100%" height="400px" allowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen"></iframe>
+                    </div>              
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container">
         <!-- second section main wrapper -->
         <div class="row">
@@ -32,11 +51,11 @@
                 <div class="row">
                     <div class="col-12 section-title-container">
                         <div class="section-title">
-                            <h2>Mujer</h2>
-                            <span>Mujer</span>
+                            <h2>Mejores Momentos</h2>
+                            <span>Mejores Momentos</span>
                         </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
                             <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                             <div class="card-body">
@@ -53,7 +72,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
                             <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
                             <div class="card-body">
@@ -70,7 +89,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
                             <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
                             <div class="card-body">
@@ -87,11 +106,19 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-6">
+                </div>
+                <!-- more news section -->
+                <div class="row">
+                    <div class="col-12 section-title-container">
+                        <div class="section-title">
+                            <h2>Más noticias</h2>
+                            <span>Más noticias</span>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
                             <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
                                 </p>
@@ -104,11 +131,10 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
                             <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
                                 </p>
@@ -121,11 +147,58 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
                             <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">
+                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                </p>
+                                <div class="date-time">
+                                    <span class="icon-clock"></span>
+                                    <span class="date"> 
+                                        03/07/2020
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#" target="_blank" class="card main-card">
+                            <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                </p>
+                                <div class="date-time">
+                                    <span class="icon-clock"></span>
+                                    <span class="date"> 
+                                        03/07/2020
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#" target="_blank" class="card main-card">
+                            <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                            <div class="card-body">
+                                <p class="card-text">
+                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                </p>
+                                <div class="date-time">
+                                    <span class="icon-clock"></span>
+                                    <span class="date"> 
+                                        03/07/2020
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <a href="#" target="_blank" class="card main-card">
+                            <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                            <div class="card-body">
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
                                 </p>
@@ -146,8 +219,7 @@
                 <a href="#" target="_blank" class="banner-md-2">
                     <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
                 </a>
-                <?php include 'includes/live-player.php'; ?>
-                <?php include 'includes/last-songs.php'; ?>
+                <?php include 'includes/follow-us.php'; ?>
                 <?php include 'includes/aside-cards.php'; ?>
             </div>
         </div>

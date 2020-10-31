@@ -1,82 +1,26 @@
 @import "main.styl" 
 @import "partials/_small-components.styl"
 @import "partials/_aside-section.styl" 
+@import "partials/_circled-show-img.styl" 
 
 .show-wrap
 	text-align center
-	margin-bottom 15px
 	.img-wrap
-		display flex
-		height 250px
-		width 250px
-		padding 5px 
 		border 3px solid #FA4C81
-		border-radius 100%
-		margin 0 auto
-		position relative
-		transition all 0.8s ease
-		img
-			height 100%
-			width 100%
-			object-fit fill
-		.hover-efect
-			position absolute
-			top 0
-			left 0
-			height 100%		
-			width 100%
-			background rgba(0, 0, 0,0.4)
-			z-index 3
-			display none
-			border-radius 100%
-			@media (max-width 767px)
-				display none !important
-		.icon-container
-			position absolute
-			background var(--color1-x1)
-			min-width 3em
-			min-height 3em
-			top 41%
-			left 41%
-			display none
-			span
-				color white
-				font-size 1.4em
-		&:hover, &:focus
-			.hover-efect
-				display block
-			.icon-container
-				display inline-flex
-	h5 
-		color var(--color1-x1)
-		font-weight bold
-		margin 15px 0
-	p 
-		color var(--color2-x2)
-		margin-bottom 0
-		line-height 1
-	.highlighted-text
-		font-weight bold
-	.rss-tag
-		background #F0EFEF
-		display flex
-		align-items center
-		width max-content
-		padding 5px 15px
-		border-radius 50px
-		margin 15px auto
-		.icon-container
-			background var(--color2-x2)
-			min-width 1.5em
-			min-height 1.5em
-			margin-right 5px
-			span
-				color white
-				font-size 0.9em
+	.show-desc
+		h5 
+			color var(--color1-x1)
 		p 
-			margin-bottom 0
-			font-size 0.7em
-			font-weight bold
-	.pink-plus
-		margin-top -2px
+			color var(--color2-x2)
+		.rss-tag
+			background #F0EFEF
+			.icon-container
+				background var(--color2-x2)
+				span
+					color white
+			p
+				color var(--color2-x2)
+					
+		.pink-plus
+			margin-top -2px
 	

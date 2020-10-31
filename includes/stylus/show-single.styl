@@ -1,0 +1,48 @@
+@import "main.styl" 
+@import "partials/_small-components.styl"
+@import "partials/_circled-show-img.styl" 
+@import "partials/_aside-section.styl"
+
+.show-single
+	height 450px
+	background linear-gradient(top, var(--color1-x1), var(--color1-x0))
+	padding 25px 10px
+	margin-bottom 25px
+	z-index 2
+	.section-title-container
+		z-index 0
+		line-height 1
+		.section-title
+			span
+				position relative
+				color white
+				left 0
+			h2
+				color rgba(250,250,250,0.4)
+				letter-spacing 1.2px
+	.iframe-container
+		z-index 3
+	.show-wrap
+		display flex
+		justify-content center
+		.img-wrap
+			margin initial
+			margin-right 30px
+	.show-desc
+		align-self center
+		.rss-tag
+			margin initial
+			margin-top 20px
+			
+//overwrite styles on _aside.section.styl
+.last-songs-container
+	.artist, .track-duration
+		color var(--color2-x1)
+	.track-name
+		color #434B46
+		font-weight bold
+		
+.card
+	flex-direction unset
+	img, .card-body
+		width 50%

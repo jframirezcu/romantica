@@ -18,148 +18,145 @@
  <body>
     <!-- Parallax-container -->
     <div class="site-parallax">
-
-    <!-- File stored in views/includes -->
-	<?php include 'includes/header.php'; ?>
-    <!-- End Header -->
-
-    <div class="container">
-        <!-- second section main wrapper -->
-        <div class="row">
-            <!-- Left section of the content -->
-            <div class="col-md-9">
-                <!-- news section -->
-                <div class="row">
-                    <div class="col-12 section-title-container">
-                        <div class="section-title">
-                            <h2>Mujer</h2>
-                            <span>Mujer</span>
+        <!-- File stored in views/includes -->
+    	<?php include 'includes/header.php'; ?>
+        <!-- End Header -->
+        <div class="container">
+            <!-- second section main wrapper -->
+            <div class="row">
+                <!-- Left section of the content -->
+                <div class="col-md-9">
+                    <!-- news section -->
+                    <div class="row">
+                        <div class="col-12 section-title-container">
+                            <div class="section-title">
+                                <h2>Mujer</h2>
+                                <span>Mujer</span>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" target="_blank" class="card main-card">
+                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" target="_blank" class="card main-card">
+                                <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" target="_blank" class="card main-card">
+                                <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" target="_blank" class="card main-card">
+                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" target="_blank" class="card main-card">
+                                <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-6">
+                            <a href="#" target="_blank" class="card main-card">
+                                <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
-                                </p>
-                                <div class="date-time">
-                                    <span class="icon-clock"></span>
-                                    <span class="date"> 
-                                        03/07/2020
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
-                                </p>
-                                <div class="date-time">
-                                    <span class="icon-clock"></span>
-                                    <span class="date"> 
-                                        03/07/2020
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
-                                </p>
-                                <div class="date-time">
-                                    <span class="icon-clock"></span>
-                                    <span class="date"> 
-                                        03/07/2020
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
-                                </p>
-                                <div class="date-time">
-                                    <span class="icon-clock"></span>
-                                    <span class="date"> 
-                                        03/07/2020
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
-                                </p>
-                                <div class="date-time">
-                                    <span class="icon-clock"></span>
-                                    <span class="date"> 
-                                        03/07/2020
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-sm-6">
-                        <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">
-                                    Registro Civil inscribió a dos niños como hijos de una familia homoparenta
-                                </p>
-                                <div class="date-time">
-                                    <span class="icon-clock"></span>
-                                    <span class="date"> 
-                                        03/07/2020
-                                    </span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
+                </div>
+
+                <!-- aside right section of the content -->
+                <div class="col-md-3 aside-section">
+                    <a href="#" target="_blank" class="banner-md-2">
+                        <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+                    </a>
+                    <?php include 'includes/live-player.php'; ?>
+                    <?php include 'includes/last-songs.php'; ?>
+                    <?php include 'includes/aside-cards.php'; ?>
                 </div>
             </div>
-
-            <!-- aside right section of the content -->
-            <div class="col-md-3 aside-section">
-                <a href="#" target="_blank" class="banner-md-2">
-                    <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+            
+            <!-- banner -->
+            <div class="row">
+                <a href="#" target="_blank" class="col-12 banner-xl">
+                    <img src="../includes/img/banner-xl.png" alt="Ads">
                 </a>
-                <?php include 'includes/live-player.php'; ?>
-                <?php include 'includes/last-songs.php'; ?>
-                <?php include 'includes/aside-cards.php'; ?>
             </div>
         </div>
-        
-        <!-- banner -->
-        <div class="row">
-            <a href="#" target="_blank" class="col-12 banner-xl">
-                <img src="../includes/img/banner-xl.png" alt="Ads">
-            </a>
-        </div>
-    </div>
-
     </div>
 	<!-- File stored in views/includes -->
 	<?php include 'includes/footer.php'; ?>
