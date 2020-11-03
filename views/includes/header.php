@@ -122,7 +122,7 @@
 		</div>
 
 		<!-- Banner lg -->
-        <div class="row d-none d-lg-block">
+        <div class="row banner-container">
             <a href="#" target="_blank" class="col banner-lg">
                 <img src="../includes/img/banner-1.png" alt="banner-1">
             </a>
