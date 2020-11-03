@@ -33,7 +33,7 @@
         <!-- first slider -->
         <div class="container">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mobile-wrap">
                     <div id="mainCarousel" class="carousel slide slider-news-section">
                         <ol class="carousel-indicators">
                             <li data-target="#mainCarousel" data-slide-to="0" class="active"></li>
@@ -42,8 +42,8 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-9" alt="Img1">
-                                <div class="carousel-caption col-3">
+                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-12 col-md-9" alt="Img1">
+                                <div class="carousel-caption col-12 col-md-3">
                                     <div class="carousel-caption-wrap">
                                         <h5 class="caption-title">Belleza Real</h5>
                                         <p class="caption-desc">Ellie Goldstein es la primera modelo con Síndrome de Down en ser rostro de Gucci</p>
@@ -55,21 +55,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-9" alt="Img1">
-                                <div class="carousel-caption col-3">
-                                    <div class="carousel-caption-wrap">
-                                        <h5 class="caption-title">Belleza Real</h5>
-                                        <p class="caption-desc">Ellie Goldstein es la primera modelo con Síndrome de Down en ser rostro de Gucci</p>
-                                        <div class="date-time">
-                                            <span class="icon-clock"></span>
-                                             <p>03/07/2020</p>   
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                             <div class="carousel-item">
-                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-9" alt="Img1">
-                                <div class="carousel-caption col-3">
+                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-12 col-md-9" alt="Img1">
+                                <div class="carousel-caption col-12 col-md-3">
                                     <div class="carousel-caption-wrap">
                                         <h5 class="caption-title">Belleza Real</h5>
                                         <p class="caption-desc">Ellie Goldstein es la primera modelo con Síndrome de Down en ser rostro de Gucci</p>
@@ -98,8 +85,14 @@
             </div>
         </div>
 
+        <!-- second section main wrapper -->
         <div class="container">
-            <!-- second section main wrapper -->
+            <!-- Mobile/Tablet live player -->
+            <div class="row d-block d-md-none">
+                <div class="col-12">
+                    <?php include 'includes/live-player.php'; ?>
+                </div>
+            </div>
             <div class="row">
                 <!-- Left section of the content -->
                 <div class="col-md-9">
@@ -165,14 +158,14 @@
                     </div>
                     <!-- music slider -->
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-12 mobile-padding">
                             <div class="music-slider-container">
-                                <div class=" section-title-container">
+                                <div class="section-title-container">
                                     <div class="section-title">
-                                        <h2>Los culpables de siempre</h2>
+                                        <h2 class="d-none d-md-block">Los culpables de siempre</h2>
                                         <span>Los culpables de siempre</span>
                                     </div>
-                                    <a href="#" target="_blank" class="view-more">
+                                    <a href="#" target="_blank" class="view-more d-none d-md-block">
                                         Ver más
                                     </a>
                                 </div>
@@ -212,37 +205,27 @@
                                             <p>de Stereo 3</p>
                                         </div>
                                     </div>
-                                    <div class="item">
-                                        <img src="../includes/img/music-slider-2.png" alt="Disco2" class="album-img">
-                                        <div class="album-caption">
-                                            <p>"Amanecer sin ti"</p>
-                                            <p>de Stereo 3</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="../includes/img/music-slider-2.png" alt="Disco3" class="album-img">
-                                        <div class="album-caption">
-                                            <p>"Amanecer sin ti"</p>
-                                            <p>de Stereo 3</p>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="../includes/img/music-slider-2.png" alt="Disco3" class="album-img">
-                                        <div class="album-caption">
-                                            <p>"Amanecer sin ti"</p>
-                                            <p>de Stereo 3</p>
-                                        </div>
-                                    </div>
                                 </div>
+                                <div class="section-title-container d-flex d-md-none">
+                                    <a href="#" target="_blank" class="view-more">
+                                        Ver más
+                                    </a>
+                                  </div>  
                             </div>
                         </div>
                     </div>
                     <!-- banner lg -->
-                    <div class="row">
+                    <div class="row banner-container">
                         <div class="col banner-lg">
                             <a href="#" target="_blank">
                                 <img src="../includes/img/banner-1.png" alt="banner-1" class="img-fluid">
                             </a>
+                        </div>
+                    </div>
+                    <!-- Last songs on mobile -->
+                    <div class="row d-block d-md-none">
+                        <div class="col-12">
+                            <?php include 'includes/last-songs.php'; ?>
                         </div>
                     </div>
                     <!-- more news -->
@@ -327,7 +310,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6 col-md-4">
+                        <div class="col-sm-6 col-md-4 banner-container">
                             <a href="#" target="_blank">
                                 <img src="../includes/img/banner-md.png" alt="Ads" class="img-fluid">
                             </a>
@@ -336,16 +319,23 @@
                 </div>
                 <!-- aside right section of the content -->
                 <div class="col-md-3 aside-section">
-                    <a href="#" target="_blank" class="banner-md-2">
-                        <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
-                    </a>
-                    <?php include 'includes/live-player.php'; ?>
-                    <?php include 'includes/last-songs.php'; ?>
-                    <?php include 'includes/aside-cards.php'; ?>
+                    <div class="banner-container">
+                        <a href="#" target="_blank" class="banner-md-2">
+                            <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="d-none d-md-block"><?php include 'includes/live-player.php'; ?>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <?php include 'includes/last-songs.php'; ?>
+                    </div>
+                    <div class="d-none d-md-block">
+                        <?php include 'includes/aside-cards.php'; ?>
+                    </div>
                 </div>
             </div>
             <!-- Banner -->
-            <div class="row">
+            <div class="row banner-container">
                 <div class="col banner-lg">
                     <a href="#" target="_blank">
                         <img src="../includes/img/banner-1.png" alt="banner-1" class="img-fluid">
@@ -354,16 +344,16 @@
             </div>
             <!-- more news section -->
             <div class="row">
-                <div class="col-9 third-slider-container">
+                <div class="col-md-9 third-slider-container">
                     <!-- Third slider title -->
                     <div class="row">
-                        <div class="col-12">
+                        <div class="col-sm-12">
                             <h4>Más noticias</h4>
                         </div>
                     </div>
                     <!-- Third slider -->
                     <div class="row">
-                        <div class="col-12 owl-carousel owl-theme">
+                        <div class="col-sm-12 owl-carousel owl-theme">
                             <a href="#" target="_blank" class="card main-card item">
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
@@ -424,8 +414,14 @@
                     </div>
                 </div>
             </div>
+            <!-- aside-cards on mobile -->
+            <div class="row d-block d-md-none">
+                <div class="col-12">
+                    <?php include 'includes/aside-cards.php'; ?>
+                </div>
+            </div>
             <!-- banner -->
-            <div class="row">
+            <div class="row banner-container">
                 <a href="#" target="_blank" class="col-12 banner-xl">
                     <img src="../includes/img/banner-xl.png" alt="Ads">
                 </a>

@@ -1,11 +1,25 @@
 .btn-center
 	margin 0 auto
+	
+//site icon buttons styles
+.icon-container
+	background-color var(--color2-x2)
+	span
+		color  white
+		font-size 1.2em
+	&:hover
+		background-color var(--color1-x1)
+		text-decoration none
+		transition all .3s ease
 
 // Live box and search form default styles
 .box-container
 	display flex
 	align-self center
 	justify-content flex-end
+	white-space nowrap
+	overflow hidden
+	text-overflow ellipsis 
 	.box-sm-wrap
 		display flex
 		border 2px solid var(--color2-x0)
@@ -18,8 +32,8 @@
 		.addon-circle
 			display flex
 			justify-content center
-			width 48px
-			height 48px
+			min-width 48px !important
+			min-height 48px !important
 			border-radius 48px
 			background var(--color2-x0)
 			margin-top -2px
@@ -99,10 +113,16 @@
 	text-decoration none
 	border-radius 10px
 	border 2px solid var(--color2-x0)
+	.card-img-top
+		@media (max-width 967px)
+			height 200px
+			object-fit fill
 	.card-body
 		height 155px
 		overflow hidden
 		display inline-grid
+		@media (max-width 967px)
+			height auto
 		.card-title
 			font-weight bold
 			font-size 0.9em

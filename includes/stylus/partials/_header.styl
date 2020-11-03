@@ -1,9 +1,9 @@
 .header-container
 	padding 25px 0
-	.logo-container
-		// height 61px
-		// width 360px
 	.box-container
+		.box-sm-wrap
+			@media (max-width 967px)
+				width max-width
 		.play
 			font-size 0.7em
 			line-height 1.2
@@ -16,6 +16,7 @@
 		.live
 			font-size 0.7em
 			line-height 1.2
+			margin-right 0 !important
 		.box-desc
 			overflow hidden
 			padding-left 8px !important
@@ -39,15 +40,8 @@
 		align-self center
 		text-align end
 		padding-left 0
-		.icon-container
-			background-color var(--color2-x2)
-			span
-				color  white
-				font-size 1.2em
-			&:hover
-				background-color var(--color1-x1)
-				text-decoration none
-				transition all .3s ease
+		@media (max-width 967px)
+			text-align center
 	.header-nav
 		margin-top 30px
 		width 100%
@@ -71,5 +65,70 @@
 	.banner-lg
 		margin-top 30px
 		margin-bottom 0
+	//mobile styles
+	.mobile-menu-container
+		display flex
+		justify-content space-between
+		padding-bottom 15px
+		margin-top 15px
+		border-bottom 1px solid var(--color2-x0)
+		height 52px
+		.icon-menu
+			color var(--color2-x2)
+			font-size 2.2em
+		img
+			height 34px
+		.btn
+			padding 0
+			line-height 1
+			&:focus
+				box-shadow none
+				span
+					color var(--color1-x1)
+	.dropdown-toggle::after
+		display none
+	.dropdown-menu
+		box-shadow 0 0 0 0.2rem rgba(0,123,255,.25)
+		left -11px !important
+		width 280px
+		.icon-cerrar
+			color var(--color2-x2)
+			float right
+			padding 20px 20px 20px 0
+		.dropdown-item
+			color var(--color2-x2)
+			font-weight bolder
+			height 3em
+		.active
+			color var(--color1-x1)
+			background none
+	#collapseSearch
+		margin 15px 0
+		.form-control
+			background var(--color1-x1)
+			border 1px solid var(--color1-x1)
+			color white
+			&:focus
+				box-shadow none
+		::-webkit-input-placeholder {
+		  color: white;
+		}
+		:-moz-placeholder {
+		  color: white;
+		}
+		::-moz-placeholder {
+		  color: white;
+		}
+		::placeholder {
+		  color: white;
+		}
+		:-ms-input-placeholder {
+		  color: white;
+		}
+		#button-addon2
+			background var(--color1-x1) 
+			border 1px solid var(--color1-x1)
+			.icon-search
+				color white	
 				
 			

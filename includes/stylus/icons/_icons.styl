@@ -1,6 +1,8 @@
 //Variables
 icomoon-font-path ?= "../fonts/"
 
+icon-menu = "\e916"
+icon-cerrar = "\e917"
 icon-wp = "\e900"
 icon-gift = "\e902"
 icon-horoscope = "\e903"
@@ -57,6 +59,12 @@ icon-youtube = "\e90e"
     span 
         font-size 1.5em
         
+.icon-menu
+  &:before
+    content icon-menu
+.icon-cerrar
+  &:before
+    content icon-cerrar
 .icon-wp
     &:before
         content icon-wp

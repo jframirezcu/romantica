@@ -1,38 +1,62 @@
 // first slider
+.mobile-wrap
+	@media (max-width 967px)
+		padding 0
 .slider-news-section
 	margin-bottom 25px
 	height 400px
+	@media (max-width 967px)
+		height auto
+		margin-bottom 10px
 	//Bootstrap carousel 1 overwrite
 	.carousel-item.active
 		display flex
-		
+		@media (max-width 967px)
+			display initial
 	.slider-img-wrap
 		padding-right 0
 		padding-left 0
-		height 100%
 		width 100%
+		height 100%
 		object-fit fill
+		@media (max-width 967px)
+			height 235px
 	.carousel-inner
-		height 400px		
+		height 400px
+		@media (max-width 967px)
+			height auto	
 	.carousel-item
 		height 400px
 		overflow hidden
+		@media (max-width 967px)
+			height auto
+			overflow visible
 	.carousel-control-prev, .carousel-control-next
 		width 3%
 		opacity 1
+		@media (max-width 967px)
+			width auto
+			opacity 0.7
+			top -34%
 	.carousel-control-prev
 		left 0
 	.carousel-control-next
 		right 24.7%
+		@media (max-width 967px)
+			right 0
 	.carousel-control-prev-icon, .carousel-control-next-icon
 		background var(--color1-x1)
 		background-image none
 		width 30px
 		height 28px
+		@media (max-width 967px)
+			top -34% !important
 	.carousel-control-prev-icon
 		border-top-right-radius 10px
 		border-bottom-right-radius 10px
 		margin-left -6px
+		@media (max-width 967px)
+			margin-left 0
 	.carousel-control-next-icon
 		border-top-left-radius 10px
 		border-bottom-left-radius 10px
@@ -42,7 +66,9 @@
 		line-height 28px
 	.carousel-indicators
 		width 43%
-		
+		@media (max-width 967px)
+			width auto
+			top 53% !important
 	//Carousel caption styles 
 	.carousel-caption
 		position relative 
@@ -55,6 +81,9 @@
 		display flex
 		align-items center
 		transition all .5s ease
+		@media (max-width 967px)
+			padding-top 10px
+			padding-bottom 10px
 		.carousel-caption-wrap
 			color white
 			.caption-title 
@@ -65,9 +94,13 @@
 				padding 5px 15px
 				width max-content
 				margin-bottom 15px
+				@media (max-width 967px)
+					font-size 1em
 			.caption-desc
 				font-weight bold
 				font-size 1.3em
+				@media (max-width 967px)
+					font-size 0.9em
 			.date-time
 				display flex
 				align-items center
@@ -78,7 +111,27 @@
 					margin-bottom 0
 				
 //music (2nd) slider
+.mobile-padding
+	@media (max-width 967px)
+		padding-left 0
+		padding-right 0
 .music-slider-container
+	@media (max-width 967px)
+		padding-top 15px 
+		padding-bottom 15px
+	.section-title-container
+		@media (max-width 967px)
+			position relative
+			margin-bottom 15px
+			text-align center
+			justify-content center
+			.section-title 
+				width 100%
+				span
+					position relative
+					left 0
+					top 0
+					font-size 1.3em
 	.owl-carousel
 		.item 
 			width 100%
@@ -117,6 +170,9 @@
 				border-bottom-right-radius 28px !important
 				span
 					right 11px
+				@media (max-width 967px)
+					top -22%
+					left -15px
 			.owl-next
 				position absolute
 				top 25%
@@ -127,14 +183,22 @@
 				border-bottom-right-radius 0px !important
 				span 
 					left 11px
+				@media (max-width 967px)
+					top -22%
+					right -15px
 
 .third-slider-container
+	@media (max-width 967px)
+		margin-bottom 15px
 	h4
 		font-weight bold
 		color var(--color2-x2)
 		margin-left 45px
 		margin-bottom 20px
 		margin-top 10px
+	.main-card
+		@media (max-width 967px)
+			margin-bottom 10px
 	.card-text
 		font-weight bold
 	.owl-nav

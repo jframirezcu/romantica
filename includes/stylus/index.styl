@@ -29,6 +29,19 @@
 	margin 20px auto
 
 .more-news
+	.card
+		@media (max-width 967px)
+			flex-direction unset
+			height 135px
+			img
+				width 40%
+				height 100%
+				object-fit fill
+			.card-body
+				width 60%
+			.date-time
+				justify-content flex-end
 	.card-body
-		height 115px !important 		
+		@media (min-width 967px)
+			height 115px !important 		
 	

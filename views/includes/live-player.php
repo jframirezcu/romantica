@@ -6,7 +6,8 @@
         </div>
     </div>
     <div class="iframe-container">
+        <p class="d-block d-md-none">Romántica TV</p>
     	<iframe id="vrudo" class="vrudo" src="//rudo.video/live/romanticatv" width="100%" height="170px" allowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen"></iframe>
-    	<p>Romántica TV</p>
+    	<p class="d-none d-md-block">Romántica TV</p>
     </div>
 </div>

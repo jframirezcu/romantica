@@ -12,7 +12,7 @@
 			<div class="row nav-rss-footer">
 			    <div class="col-md-8">
 				    <div class="row">
-			    		<div class="col-md-5">
+			    		<div class="col-sm col-md-5">
 			    			<ul class="nav flex-column">
 								<li class="nav-item">
 									<a class="nav-link nav-footer-title" href="#">PROGRAMAS</a>
@@ -49,7 +49,7 @@
 								</li>
 							</ul>
 			    		</div>
-			    		<div class="col">
+			    		<div class="col-sm-12 col-md">
 			    			<ul class="nav flex-column">
 								<li class="nav-item">
 									<a class="nav-link nav-footer-title" href="#">RED DE SITIOS</a>
@@ -77,7 +77,7 @@
 								</li>
 							</ul>
 			    		</div>
-			    		<div class="col">
+			    		<div class="col-sm-12 col-md">
 			    			<ul class="nav flex-column">
 								<li class="nav-item">
 									<a class="nav-link nav-footer-title" href="#">CORPORATIVO</a>
@@ -102,6 +102,9 @@
 			    	</div>	
 			    </div>
 			    <div class="col-md-4 main-rss">
+			    	<p class="nav-footer-title d-block d-md-none">
+			    		Redes Sociales
+			    	</p>
 	                <a href="#" target="_blank" class="icon-container">
 	                    <span class="icon-search"></span>
 	                </a>
@@ -138,7 +141,6 @@
 				<a href="#" target="_blank" class="col-xs-4">
 					<img src="../includes/img/candela-logo.png" alt="CandelaFm" class="candela-logo">
 				</a>
-				<!-- <div class="w-100"></div> -->
 				<a href="#" target="_blank" class="col-xs-6">
 					<img src="../includes/img/romantica-logo.png" alt="Romántica">
 				</a>
