@@ -10,7 +10,7 @@
 			    </div>
 			</div>
 			<div class="row nav-rss-footer">
-			    <div class="col-md-8">
+			    <div class="col-lg-8">
 				    <div class="row">
 			    		<div class="col-sm col-md-5">
 			    			<ul class="nav flex-column">
@@ -101,7 +101,7 @@
 			    		</div>
 			    	</div>	
 			    </div>
-			    <div class="col-md-4 main-rss">
+			    <div class="col-lg-4 main-rss">
 			    	<p class="nav-footer-title d-block d-md-none">
 			    		Redes Sociales
 			    	</p>

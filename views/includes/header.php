@@ -1,12 +1,12 @@
 <header class="container-fluid header-container">
 	<div class="container">
 		<div class="row">
-			<div class="col-3 d-none d-md-block">
+			<div class="col-3 d-none d-md-block logo-desktop-container">
 				<div class="logo-container">
 					<img src="../includes/img/main-logo.png" alt="Romántica" class="img-fluid">
 				</div>
 			</div>
-			<div class="col-sm-6 box-container">
+			<div class="col-sm-12 col-md box-container">
 				<div class="box-sm-wrap play">
 					<a href="#" target="_blank" class="addon-circle">
 						<span class="icon-play"></span>

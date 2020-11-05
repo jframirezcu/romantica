@@ -42,8 +42,8 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-12 col-md-9" alt="Img1">
-                                <div class="carousel-caption col-12 col-md-3">
+                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-12 col-lg-9" alt="Img1">
+                                <div class="carousel-caption col-12 col-lg-3">
                                     <div class="carousel-caption-wrap">
                                         <h5 class="caption-title">Belleza Real</h5>
                                         <p class="caption-desc">Ellie Goldstein es la primera modelo con Síndrome de Down en ser rostro de Gucci</p>
@@ -55,8 +55,8 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-12 col-md-9" alt="Img1">
-                                <div class="carousel-caption col-12 col-md-3">
+                                <img src="../includes/img/slider-1.png" class="slider-img-wrap col-12 col-lg-9" alt="Img1">
+                                <div class="carousel-caption col-12 col-lg-3">
                                     <div class="carousel-caption-wrap">
                                         <h5 class="caption-title">Belleza Real</h5>
                                         <p class="caption-desc">Ellie Goldstein es la primera modelo con Síndrome de Down en ser rostro de Gucci</p>
@@ -95,7 +95,7 @@
             </div>
             <div class="row">
                 <!-- Left section of the content -->
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <!-- news section -->
                     <div class="row">
                         <div class="col-12 section-title-container">
@@ -162,10 +162,10 @@
                             <div class="music-slider-container">
                                 <div class="section-title-container">
                                     <div class="section-title">
-                                        <h2 class="d-none d-md-block">Los culpables de siempre</h2>
+                                        <h2 class="d-none d-lg-block">Los culpables de siempre</h2>
                                         <span>Los culpables de siempre</span>
                                     </div>
-                                    <a href="#" target="_blank" class="view-more d-none d-md-block">
+                                    <a href="#" target="_blank" class="view-more d-none d-lg-block">
                                         Ver más
                                     </a>
                                 </div>
@@ -230,7 +230,7 @@
                     </div>
                     <!-- more news -->
                     <div class="row more-news">
-                        <div class="col-sm-6 col-md-4">
+                        <div class="col-sm-6 col-lg-4">
                             <a href="#" target="_blank" class="card main-card">
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
@@ -246,7 +246,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6 col-md-4">
+                        <div class="col-sm-6 col-lg-4">
                             <a href="#" target="_blank" class="card main-card">
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
@@ -262,7 +262,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6 col-md-4">
+                        <div class="col-sm-6 col-lg-4">
                             <a href="#" target="_blank" class="card main-card">
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
@@ -278,7 +278,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6 col-md-4">
+                        <div class="col-sm-6 col-lg-4">
                             <a href="#" target="_blank" class="card main-card">
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
@@ -294,7 +294,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6 col-md-4">
+                        <div class="col-sm-6 col-lg-4">
                             <a href="#" target="_blank" class="card main-card">
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
@@ -310,7 +310,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-6 col-md-4 banner-container">
+                        <div class="col-sm-6 col-lg-4 banner-container">
                             <a href="#" target="_blank">
                                 <img src="../includes/img/banner-md.png" alt="Ads" class="img-fluid">
                             </a>
@@ -318,19 +318,21 @@
                     </div>
                 </div>
                 <!-- aside right section of the content -->
-                <div class="col-md-3 aside-section">
-                    <div class="banner-container">
-                        <a href="#" target="_blank" class="banner-md-2">
-                            <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
-                        </a>
-                    </div>
-                    <div class="d-none d-md-block"><?php include 'includes/live-player.php'; ?>
-                    </div>
-                    <div class="d-none d-md-block">
-                        <?php include 'includes/last-songs.php'; ?>
-                    </div>
-                    <div class="d-none d-md-block">
-                        <?php include 'includes/aside-cards.php'; ?>
+                <div class="col-lg-3 aside-section">
+                    <div class="row">
+                        <div class="banner-container">
+                            <a href="#" target="_blank" class="banner-md-2">
+                                <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="col-md-6 col-lg-12 d-none d-md-block"><?php include 'includes/live-player.php'; ?>
+                        </div>
+                        <div class="col-md-6 col-lg-12 d-none d-md-block">
+                            <?php include 'includes/last-songs.php'; ?>
+                        </div>
+                        <div class="col-12 d-none d-md-block">
+                            <?php include 'includes/aside-cards.php'; ?>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -344,7 +346,7 @@
             </div>
             <!-- more news section -->
             <div class="row">
-                <div class="col-md-9 third-slider-container">
+                <div class="col-lg-9 third-slider-container">
                     <!-- Third slider title -->
                     <div class="row">
                         <div class="col-sm-12">

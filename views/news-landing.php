@@ -25,7 +25,7 @@
             <!-- second section main wrapper -->
             <div class="row">
                 <!-- Left section of the content -->
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <!-- news section -->
                     <div class="row">
                         <div class="col-12 section-title-container">
@@ -140,18 +140,23 @@
                 </div>
 
                 <!-- aside right section of the content -->
-                <div class="col-md-3 aside-section">
-                    <a href="#" target="_blank" class="banner-md-2">
-                        <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
-                    </a>
-                    <?php include 'includes/live-player.php'; ?>
-                    <?php include 'includes/last-songs.php'; ?>
-                    <?php include 'includes/aside-cards.php'; ?>
+                <div class="col-lg-3 aside-section">
+                    <div class="row">
+                        <a href="#" target="_blank" class="banner-md-2 banner-container col-12">
+                            <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+                        </a>
+                        <div class="col-md-6 col-lg"><?php include 'includes/live-player.php'; ?>
+                        </div>
+                        <div class="col-md-6 col-lg"><?php include 'includes/last-songs.php'; ?>
+                        </div>
+                        <div class="col-12"><?php include 'includes/aside-cards.php'; ?>
+                        </div>
+                    </div>
                 </div>
             </div>
             
             <!-- banner -->
-            <div class="row">
+            <div class="row banner-container">
                 <a href="#" target="_blank" class="col-12 banner-xl">
                     <img src="../includes/img/banner-xl.png" alt="Ads">
                 </a>

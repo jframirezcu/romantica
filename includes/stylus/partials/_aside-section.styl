@@ -80,15 +80,21 @@
 	margin-bottom 15px
 	@media (max-width 967px)
 		margin-bottom 0
-	p
+		p
 		color var(--color1-x1)
 		font-weight bold
 		margin-bottom 0
+.iframe-container
+	@media (min-width 768px) and (max-width 967px)
+		height 260px
+		iframe
+			height 100%
+			object-fit fill 
 			
 //last-songs
 .last-songs-container
 	margin-bottom 20px
-	@media (max-width 967px)
+	@media (max-width 767px)
 		margin-top 20px
 	.section-title
 		span
@@ -96,7 +102,9 @@
 			top 8px
 		@media (max-width 967px)
 			span
+				top 12px
 				left 0
+				line-height initial
 	.song-wrap
 		background var(--color2-x0)
 		display flex

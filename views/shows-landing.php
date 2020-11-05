@@ -171,7 +171,7 @@
                 </div>
                 <!-- aside right section of the content -->
                 <div class="col-md-3 aside-section">
-                    <a href="#" target="_blank" class="banner-md-2">
+                    <a href="#" target="_blank" class="banner-md-2 banner-container">
                         <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
                     </a>
                     <?php include 'includes/live-player.php'; ?>
@@ -180,7 +180,7 @@
                 </div>
             </div>
             <!-- banner -->
-            <div class="row">
+            <div class="row banner-container">
                 <a href="#" target="_blank" class="col-12 banner-xl">
                     <img src="../includes/img/banner-xl.png" alt="Ads">
                 </a>
