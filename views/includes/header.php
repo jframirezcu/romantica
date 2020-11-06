@@ -22,7 +22,7 @@
 					<a href="#" target="_blank" class="addon-circle">
 						<span class="icon-camera"></span>
 					</a>
-					<div class="box-desc">
+					<div class="box-desc live-box">
 						<p>Señal en vivo</p>
 						<p>Romántica TV</p>
 					</div>			
