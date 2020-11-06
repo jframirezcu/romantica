@@ -26,9 +26,10 @@
 					font-size 1.7em
 			p
 				color var(--color2-x2)
-				font-weight bold
-				font-size 1.1em
+				font-family 'CeraProBold'
+				font-size 1em
 				margin-bottom 0
+				text-transform none
 			&:hover, &:focus
 				.icon-container
 					background var(--color1-x1)
@@ -65,7 +66,7 @@
 				color var(--color2-x2)
 			.r-text
 				color var(--color1-x0)
-				font-weight bold
+				font-family 'CeraProBold'
 		//affects all icons on cards
 		span
 			position absolute
@@ -80,9 +81,9 @@
 	margin-bottom 15px
 	@media (max-width 967px)
 		margin-bottom 0
-		p
+	p
 		color var(--color1-x1)
-		font-weight bold
+		font-family 'CeraProBold'
 		margin-bottom 0
 .iframe-container
 	@media (min-width 768px) and (max-width 967px)
@@ -112,11 +113,12 @@
 		justify-content space-between
 		padding 5px 10px
 		&:hover, &:active, &:focus
-			background var(--color1-x1)
-				p, .icon-play
-					color white !important
+			background var(--color1-x1) !important
+			p, .icon-play
+				color white !important
 			.icon-container
 				border 1px solid white
+				background var(--color1-x1) !important
 		.song-desc
 			width 100%
 			overflow hidden
@@ -128,7 +130,7 @@
 				color var(--color2-x1)
 				&:nth-child(2)
 					color #434B46
-					font-weight bold
+					font-family 'CeraProBold'
 		.icon-container
 			border 1px solid var(--color2-x2)
 			min-width 1.9em

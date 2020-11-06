@@ -12,8 +12,8 @@
 						<span class="icon-play"></span>
 					</a>
 					<div class="box-desc">
-						<p class="on-air d-none d-md-block"><span>Al aire/</span> Radio online</p>
-						<p class="on-air d-xs-block d-md-none"><span>Al aire/</span> Juan solo y denise ros</p>
+						<p class="on-air d-none d-md-block"><span class="on-air-state">Al aire/</span> <span class="on-air-desc">Radio online</span></p>
+						<p class="on-air d-xs-block d-md-none"><span class="on-air-state">Al aire/</span> <span class="show">Juan solo y denise ros</span></p>
 						<p class="show on-air d-none d-md-block">Juan solo y denise ros</p>
 						<p class="song">No rompo tus fotos</p>
 					</div>

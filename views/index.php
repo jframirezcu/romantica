@@ -110,7 +110,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -127,7 +127,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -144,7 +144,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -235,7 +235,7 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -251,7 +251,7 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -267,7 +267,7 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -283,7 +283,7 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -299,7 +299,7 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -360,7 +360,11 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -374,7 +378,11 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -388,7 +396,11 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -402,7 +414,11 @@
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
