@@ -12,10 +12,13 @@
 						<span class="icon-play"></span>
 					</a>
 					<div class="box-desc">
+						<!-- desktop block -->
 						<p class="on-air d-none d-md-block"><span class="on-air-state">Al aire/</span> <span class="on-air-desc">Radio online</span></p>
-						<p class="on-air d-xs-block d-md-none"><span class="on-air-state">Al aire/</span> <span class="show">Juan solo y denise ros</span></p>
+						<!-- mobile block -->
+						<p class="on-air d-block d-md-none"><span class="on-air-state">Al aire/</span> <span class="show">Juan solo y denise ros</span></p>
+						<!-- desktop block -->
 						<p class="show on-air d-none d-md-block">Juan solo y denise ros</p>
-						<p class="song">No rompo tus fotos</p>
+						<p class="song d-none d-md-block">No rompo tus fotos</p>
 					</div>
 				</div>
 				<div class="box-sm-wrap live">
@@ -24,7 +27,7 @@
 					</a>
 					<div class="box-desc live-box">
 						<p>Señal en vivo</p>
-						<p>Romántica TV</p>
+						<p class="d-none d-sm-block">Romántica TV</p>
 					</div>			
 				</div>
 			</div>
