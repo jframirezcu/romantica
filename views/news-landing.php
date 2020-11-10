@@ -16,11 +16,12 @@
  	<link rel="stylesheet" href="../includes/css/news-landing.css">
  </head>
  <body>
+    <!-- File stored in views/includes -->
+	<?php include 'includes/header.php'; ?>
+    <!-- End Header -->
+
     <!-- Parallax-container -->
     <div class="site-parallax">
-        <!-- File stored in views/includes -->
-    	<?php include 'includes/header.php'; ?>
-        <!-- End Header -->
         <div class="container">
             <!-- second section main wrapper -->
             <div class="row">
@@ -163,6 +164,8 @@
             </div>
         </div>
     </div>
+    <!-- End Parallax -->
+
 	<!-- File stored in views/includes -->
 	<?php include 'includes/footer.php'; ?>
     <!-- End Footer -->

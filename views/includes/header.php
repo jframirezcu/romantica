@@ -38,35 +38,36 @@
 				  		<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					    	<span class="icon-menu"></span>
 					  	</a>
-					  	<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					  		<a class="icon-cerrar"></a>
-						    <a class="dropdown-item active" href="#">Hoy</a>
-						    <a class="dropdown-item" href="#">Mujer</a>
-						    <a class="dropdown-item" href="#">Música</a>
-						    <a class="dropdown-item" href="#">Tendencias</a>
-						    <a class="dropdown-item" href="#">Ocio</a>
-						    <a class="dropdown-item" href="#">Estilo</a>
-						    <a class="dropdown-item" href="#">Nuestras Ciudades</a>
-						    <a class="dropdown-item" href="#">Programas</a>
-    						<div class="main-rss">
-			                    <a href="#" target="_blank" class="icon-container">
-			                        <span class="icon-wp"></span>
-			                    </a>
-			                    <a href="#" target="_blank" class="icon-container">
-			                        <span class="icon-fb"></span>
-			                    </a>
-			                    <a href="#" target="_blank" class="icon-container">
-			                        <span class="icon-twitter"></span>
-			                    </a>
-			                    <a href="#" target="_blank" class="icon-container">
-			                        <span class="icon-ig"></span>
-			                    </a>
-			                    <a href="#" target="_blank" class="icon-container">
-			                        <span class="icon-youtube"></span>
-			                    </a>
-			    			</div>
+					  	<div id="nav-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+						  	<div class="dropdown-menu-custom">
+						  		<a class="icon-cerrar"></a>
+							    <a class="dropdown-item active" href="#">Hoy</a>
+							    <a class="dropdown-item" href="#">Mujer</a>
+							    <a class="dropdown-item" href="#">Música</a>
+							    <a class="dropdown-item" href="#">Tendencias</a>
+							    <a class="dropdown-item" href="#">Ocio</a>
+							    <a class="dropdown-item" href="#">Estilo</a>
+							    <a class="dropdown-item" href="#">Nuestras Ciudades</a>
+							    <a class="dropdown-item" href="#">Programas</a>
+	    						<div class="main-rss">
+				                    <a href="#" target="_blank" class="icon-container">
+				                        <span class="icon-wp"></span>
+				                    </a>
+				                    <a href="#" target="_blank" class="icon-container">
+				                        <span class="icon-fb"></span>
+				                    </a>
+				                    <a href="#" target="_blank" class="icon-container">
+				                        <span class="icon-twitter"></span>
+				                    </a>
+				                    <a href="#" target="_blank" class="icon-container">
+				                        <span class="icon-ig"></span>
+				                    </a>
+				                    <a href="#" target="_blank" class="icon-container">
+				                        <span class="icon-youtube"></span>
+				                    </a>
+				    			</div>
+				    		</div>
 					  	</div>
-
 					</div>
 					<img src="../includes/img/main-logo.png" alt="Romántica" class="img-fluid">
 					<a class="icon-container" data-toggle="collapse" href="#collapseSearch" role="button" aria-expanded="false" aria-controls="collapseSearch">
