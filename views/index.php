@@ -169,7 +169,7 @@
                                         Ver más
                                     </a>
                                 </div>
-                                <div class="owl-carousel owl-theme">
+                                <div id="second-slider" class="owl-carousel owl-theme">
                                     <div class="item">
                                         <img src="../includes/img/music-slider-2.png" alt="Disco1" class="album-img">
                                         <div class="album-caption">
@@ -355,7 +355,7 @@
                     </div>
                     <!-- Third slider -->
                     <div class="row">
-                        <div class="col-sm-12 owl-carousel owl-theme">
+                        <div id="third-slider" class="col-sm-12 owl-carousel owl-theme">
                             <a href="#" target="_blank" class="card main-card item">
                                 <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
                                 <div class="card-body">

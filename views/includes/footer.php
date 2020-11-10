@@ -49,9 +49,12 @@
 								</li>
 							</ul>
 			    		</div>
-			    		<div class="col-sm-12 col-md">
-			    			<ul class="nav flex-column">
-								<li class="nav-item">
+			    		<div class="col-sm-12 col-md sites-network">
+			    			<ul class="nav flex-row flex-lg-column">
+			    				<!-- title just for this section on mobile -->
+								<a class="nav-link nav-footer-title d-block d-lg-none" href="#">RED DE SITIOS</a>
+			    				<!-- title just for this section on desktop -->
+								<li class="nav-item d-none d-lg-block">
 									<a class="nav-link nav-footer-title" href="#">RED DE SITIOS</a>
 								</li>
 								<li class="nav-item">
@@ -131,23 +134,21 @@
 	<div class="container-fluid logos-footer-container">
 		<div class="container">
 	  		<div class="row logos-footer-contain">
-	  		<!-- <div class="col "> -->
-				<a href="#" target="_blank" class="col-xs-4">
+				<a href="#" target="_blank" class="col-4 col-lg">
 					<img src="../includes/img/carolina-logo.png" alt="CarolinaTV">
 				</a>
-				<a href="#" target="_blank" class="col-xs-4">
+				<a href="#" target="_blank" class="col-4 col-lg">
 					<img src="../includes/img/infinita-logo.png" alt="Infinita">
 				</a>
-				<a href="#" target="_blank" class="col-xs-4">
+				<a href="#" target="_blank" class="col-4 col-lg">
 					<img src="../includes/img/candela-logo.png" alt="CandelaFm" class="candela-logo">
 				</a>
-				<a href="#" target="_blank" class="col-xs-6">
+				<a href="#" target="_blank" class="col-6 col-lg">
 					<img src="../includes/img/romantica-logo.png" alt="Romántica">
 				</a>
-				<a href="#" target="_blank" class="col-xs-6">
+				<a href="#" target="_blank" class="col-6 col-lg">
 					<img src="../includes/img/tiempo-logo.png" alt="TiempoFm">
 				</a>
-		    <!-- </div> -->
 	  		</div>
 	  	</div>
 	</div>
