@@ -143,10 +143,10 @@
 				<a href="#" target="_blank" class="col-4 col-lg">
 					<img src="../includes/img/candela-logo.png" alt="CandelaFm" class="candela-logo">
 				</a>
-				<a href="#" target="_blank" class="col-6 col-lg">
+				<a href="#" target="_blank" class="col-6 col-lg justify-end">
 					<img src="../includes/img/romantica-logo.png" alt="Romántica">
 				</a>
-				<a href="#" target="_blank" class="col-6 col-lg">
+				<a href="#" target="_blank" class="col-6 col-lg justify-end">
 					<img src="../includes/img/tiempo-logo.png" alt="TiempoFm">
 				</a>
 	  		</div>

@@ -75,10 +75,11 @@
 			align-items center
 			a 
 				margin-bottom 20px
-				text-align center
 			.candela-logo
 				height 83px
 		@media (max-width 767px)
+			a
+				text-align center
 			.col-xs-4
 				text-align center
 			.candela-logo
@@ -86,6 +87,10 @@
 				width 100%
 			img
 				width 95%
+		@media (min-width 768px)
+			.justify-end
+				text-align end
+		
 			
 	.company-container
 		background rgba(244, 13, 117, 0.5)
