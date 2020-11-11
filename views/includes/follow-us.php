@@ -2,7 +2,7 @@
 	<div class="section-title-container">
         <div class="section-title">
             <h2>Síguenos</h2>
-            <span>Síguenos</span>
+            <span class="subtitle">Síguenos</span>
         </div>
     </div>
     <div class="follow-rss-container">

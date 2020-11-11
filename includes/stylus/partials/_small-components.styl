@@ -78,15 +78,19 @@
 		img
 			heigh 100%
 			width 100%
+			object-fit cover
+		
 .banner-xl
-	margin-bottom 25px
+	margin-bottom 45px
 	text-align center
 	height 120px
 	width 980px
-		img
-			heigh 100%
-			width 100%
-			object-fit cover
+	img
+		heigh 100%
+		width 100%
+		object-fit cover
+	@media (max-width 967px)
+		display none
 			
 // titles default styles
 .section-title-container
@@ -103,7 +107,7 @@
 			color #F0EFEF
 			font-size 3.5em
 			z-index 2
-		span
+		.subtitle
 			position absolute
 			left 18px
 			top 12px

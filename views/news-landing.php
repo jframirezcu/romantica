@@ -32,7 +32,7 @@
                         <div class="col-12 section-title-container">
                             <div class="section-title">
                                 <h2>Mujer</h2>
-                                <span>Mujer</span>
+                                <span class="subtitle">Mujer</span>
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -136,6 +136,19 @@
                                     </div>
                                 </div>
                             </a>
+                        </div>
+                        <div class="col-12">
+                            <div class="pagination">
+                                <a href="" target="_blank" class="prev block disabled">
+                                    <span class="icon-arrow-left"></span>
+                                </a>
+                                <a href="#" target="_blank" class="pg-number block active">1</a>
+                                <a href="#" target="_blank" class="pg-number block">2</a>
+                                <a href="#" target="_blank" class="pg-number block">3</a>
+                                <a href="#" target="_blank" class="next block">
+                                    <span class="icon-arrow-right"></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

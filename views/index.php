@@ -100,7 +100,7 @@
                             <div class="col-12 section-title-container">
                                 <div class="section-title">
                                     <h2>Noticias</h2>
-                                    <span>noticias</span>
+                                    <span class="subtitle">noticias</span>
                                 </div>
                             </div>
                             <div class="col-sm-6 col-md-4">
@@ -162,7 +162,7 @@
                                     <div class="section-title-container">
                                         <div class="section-title">
                                             <h2 class="d-none d-lg-block">Los culpables de siempre</h2>
-                                            <span>Los culpables de siempre</span>
+                                            <span class="subtitle">Los culpables de siempre</span>
                                         </div>
                                         <a href="#" target="_blank" class="view-more d-none d-lg-block">
                                             Ver más

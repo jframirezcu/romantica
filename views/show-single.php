@@ -29,7 +29,7 @@
             <div class="col-md-6">
                 <div class="section-title-container">
                     <div class="section-title text-nowrap">
-                        <span>Whatsapp Romántica</span>
+                        <span class="subtitle">Whatsapp Romántica</span>
                         <h2>Whatsapp Romántica</h2>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                         <div class="section-title-container">
                             <div class="section-title">
                                 <h2>últimas</h2>
-                                <span>últimas canciones</span>
+                                <span class="subtitle">últimas canciones</span>
                             </div>
                         </div>
                         <div class="songs-container">
@@ -117,7 +117,7 @@
                     <div class="col-12 section-title-container">
                         <div class="section-title">
                             <h2>Mejores Momentos</h2>
-                            <span>Mejores Momentos</span>
+                            <span class="subtitle">Mejores Momentos</span>
                         </div>
                     </div>
                     <div class="col-sm-6">

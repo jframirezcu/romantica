@@ -1,8 +1,8 @@
 <div class="live-player-container">
-	<div class="section-title-container">
+	<div class="section-title-container d-none d-md-block">
         <div class="section-title">
             <h2>en vivo</h2>
-            <span>en vivo</span>
+            <span class="subtitle">en vivo</span>
         </div>
     </div>
     <div class="iframe-container">

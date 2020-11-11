@@ -27,15 +27,15 @@
     <div class="container-fluid live-player-section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-8">
+                <div class="col-12 col-lg-8 pd-mb">
                     <div class="section-title-container">
                         <div class="section-title">
-                            <h2>en vivo</h2>
-                            <span>en vivo</span>
+                            <h2 class="d-none d-md-block">en vivo</h2>
+                            <span class="subtitle">en vivo</span>
                         </div>
                     </div>
                     <div class="iframe-container">
-                        <iframe id="vrudo" class="vrudo" src="//rudo.video/live/romanticatv" width="100%" height="400px" allowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen"></iframe>
+                        <iframe id="vrudo" class="vrudo" src="//rudo.video/live/romanticatv" width="100%" height="100%" allowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen"></iframe>
                     </div>              
                 </div>
             </div>
@@ -46,13 +46,13 @@
         <!-- second section main wrapper -->
         <div class="row">
             <!-- Left section of the content -->
-            <div class="col-md-9">
+            <div class="col-lg-9">
                 <!-- news section -->
                 <div class="row">
                     <div class="col-12 section-title-container">
                         <div class="section-title">
-                            <h2>Mejores Momentos</h2>
-                            <span>Mejores Momentos</span>
+                            <h2>Mejores <span class="hide-sm">Momentos</span></h2>
+                            <span class="subtitle">Mejores Momentos</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -108,11 +108,11 @@
                     </div>
                 </div>
                 <!-- more news section -->
-                <div class="row">
+                <div class="row more-news-section">
                     <div class="col-12 section-title-container">
                         <div class="section-title">
-                            <h2>Más noticias</h2>
-                            <span>Más noticias</span>
+                            <h2 class="d-none d-md-block">Más noticias</h2>
+                            <span class="subtitle">Más noticias</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -215,12 +215,18 @@
             </div>
 
             <!-- aside right section of the content -->
-            <div class="col-md-3 aside-section">
-                <a href="#" target="_blank" class="banner-md-2">
-                    <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
-                </a>
-                <?php include 'includes/follow-us.php'; ?>
-                <?php include 'includes/aside-cards.php'; ?>
+            <div class="col-lg-3 aside-section">
+                <div class="row">
+                    <a href="#" target="_blank" class="banner-md-2 col-12">
+                        <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+                    </a>
+                    <div class="col-sm-6 col-lg">
+                        <?php include 'includes/follow-us.php'; ?>
+                    </div>
+                    <div class="col-sm-6 col-lg">
+                        <?php include 'includes/aside-cards.php'; ?>
+                    </div>
+                </div>
             </div>
         </div>
         

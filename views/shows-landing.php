@@ -29,7 +29,7 @@
                 <div class="col-12 section-title-container">
                     <div class="section-title">
                         <h2>Programas</h2>
-                        <span>Programas</span>
+                        <span class="subtitle">Programas</span>
                     </div>
                 </div>
                 <!-- Left section of the content -->

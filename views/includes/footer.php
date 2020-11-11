@@ -134,19 +134,19 @@
 	<div class="container-fluid logos-footer-container">
 		<div class="container">
 	  		<div class="row logos-footer-contain">
-				<a href="#" target="_blank" class="col-4 col-lg">
+				<a href="#" target="_blank">
 					<img src="../includes/img/carolina-logo.png" alt="CarolinaTV">
 				</a>
-				<a href="#" target="_blank" class="col-4 col-lg">
+				<a href="#" target="_blank">
 					<img src="../includes/img/infinita-logo.png" alt="Infinita">
 				</a>
-				<a href="#" target="_blank" class="col-4 col-lg">
-					<img src="../includes/img/candela-logo.png" alt="CandelaFm" class="candela-logo">
+				<a href="#" target="_blank">
+					<img src="../includes/img/footer-disney-logo.png" alt="Radio Disney">
 				</a>
-				<a href="#" target="_blank" class="col-6 col-lg justify-end">
+				<a href="#" target="_blank" class="romantica-logo">
 					<img src="../includes/img/romantica-logo.png" alt="Romántica">
 				</a>
-				<a href="#" target="_blank" class="col-6 col-lg justify-end">
+				<a href="#" target="_blank" class="tiempo-logo">
 					<img src="../includes/img/tiempo-logo.png" alt="TiempoFm">
 				</a>
 	  		</div>

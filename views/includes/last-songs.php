@@ -2,7 +2,7 @@
 	<div class="section-title-container">
         <div class="section-title">
             <h2>últimas</h2>
-            <span>últimas <br class="d-block d-md-none"> canciones</span>
+            <span class="subtitle">últimas <br class="d-block d-md-none"> canciones</span>
         </div>
     </div>
     <div class="songs-container">

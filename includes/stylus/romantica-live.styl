@@ -10,16 +10,72 @@
 	padding-top 25px
 	padding-bottom 25px
 	margin-bottom 25px
+	.section-title
+		h2
+			color rgba(250,250,250,0.4)
+		.subtitle
+			color white
+			left 2px
+	.iframe-container
+		height 400px
+		iframe, img
+			height 100%
+			width 100%
+			object-fit cover
+		@media (max-width 767px)
+			height 169px
+	@media (max-width 767px)
+		height 270px
+		padding 15px
+		.section-title-container
+			margin-bottom 15px !important
+			margin-top 10px
+
+.hide-sm
+	@media (max-width 767px)
+		display none !important
+	
+.more-news-section
+	@media (max-width 767px)
+		.card
+			flex-direction unset
+			img 
+				width 40%
+				height auto
+				object-fit cover
+			.card-body
+				width 60%
+				padding 10px
+				.card-text
+					font-family "CeraPro"
+		.subtitle
+			font-size 1.5em !important
+	
+			
+.live-player-section, .more-news-section
 	.section-title-container
 		margin-bottom 10px
 		.section-title
-			h2
-				color rgba(250,250,250,0.4)
-			span
-				color white
-				left 2px
-				
+			.subtitle
+				@media (max-width 767px)
+					position relative
+					top initial
+					left initial
+					line-height 1 
+		
+.banner-md-2
+	@media (max-width 967px)
+		display none
+
 .aside-section
 	margin-top 10px
-	.follow-us-container
-		margin-top 20px
+	@media (max-width 767px)
+		.follow-rss-container
+			margin-top 20px
+			display grid
+			justify-content center
+			margin-top 0
+			.rss-item
+				width max-content
+		.aside-cards-container
+			margin-bottom 20px

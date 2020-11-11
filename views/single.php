@@ -169,7 +169,7 @@
                         <div class="col-12 section-title-container">
                             <div class="section-title">
                                 <h2>Más Noticias</h2>
-                                <span>Más Noticias</span>
+                                <span class="subtitle">Más Noticias</span>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
