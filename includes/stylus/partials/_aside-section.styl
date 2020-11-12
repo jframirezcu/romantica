@@ -7,35 +7,42 @@
 		span
 			left 0
 			
-	//Follow us
-	.follow-rss-container
-		background var(--color2-x0)
-		margin 15px 0 25px 0
-		padding 20px 15px
-		.rss-item
-			display flex
-			align-items center
-			padding 8px 0
+//Follow us
+.follow-rss-container
+	background var(--color2-x0)
+	margin 15px 0 25px 0
+	padding 20px 15px
+	.rss-item
+		display flex
+		align-items center
+		padding 8px 0
+		.icon-container
+			background var(--color2-x2)
+			margin-right 20px
+			min-height 2.7em
+			min-width 2.7em
+			span
+				color white
+				font-size 1.7em
+		p
+			color var(--color2-x2)
+			font-family 'CeraProBold'
+			font-size 1em
+			margin-bottom 0
+			text-transform none
+		&:hover, &:focus
 			.icon-container
-				background var(--color2-x2)
-				margin-right 20px
-				min-height 2.7em
-				min-width 2.7em
-				span
-					color white
-					font-size 1.7em
-			p
-				color var(--color2-x2)
-				font-family 'CeraProBold'
-				font-size 1em
-				margin-bottom 0
-				text-transform none
-			&:hover, &:focus
-				.icon-container
-					background var(--color1-x1)
-				p 
-					color var(--color1-x1)
-			transition all .5s ease
+				background var(--color1-x1)
+			p 
+				color var(--color1-x1)
+		transition all .5s ease
+	@media (max-width 767px)
+		margin-top 20px
+		display grid
+		justify-content center
+		margin-top 0
+		.rss-item
+			width max-content
 			
 //aside-cards
 .aside-cards-container
@@ -75,6 +82,8 @@
 			font-size 5.5em
 			color var(--color1-x0)
 		transition all .3s ease
+	@media (max-width 767px)
+		margin-bottom 20px
 			
 //live rudo player
 .live-player-container

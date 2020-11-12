@@ -56,7 +56,7 @@
             </div>
             <div class="col-md-6">
                 <div class="iframe-container">
-                    <iframe id="vrudo" class="vrudo" src="//rudo.video/live/romanticatv" width="100%" height="400px" allowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen"></iframe>
+                    <iframe id="vrudo" class="vrudo" src="//rudo.video/live/romanticatv" width="100%" height="100%" allowfullscreen="true" frameborder="0" scrolling="no" allow="autoplay; fullscreen"></iframe>
                 </div> 
             </div>
         </div>
@@ -68,43 +68,63 @@
                     <div class="col-12 last-songs-container">
                         <div class="section-title-container">
                             <div class="section-title">
-                                <h2>últimas</h2>
-                                <span class="subtitle">últimas canciones</span>
+                                <h2>Canciones</h2>
+                                <span class="subtitle">canciones</span>
                             </div>
                         </div>
                         <div class="songs-container">
                             <a href="#" target="_blank" class="song-wrap">
                                 <img src="../includes/img/song-thumb-1.png" alt="Song1">
-                                <p class="artist">Pablo Alborán</p>
-                                <p class="track-name">Pasos de Cero</p>
-                                <p class="track-duration">09:14</p>
+                                <p class="artist d-none d-md-block">Pablo Alborán</p>
+                                <p class="track-name d-none d-md-block">Pasos de Cero</p>
+                                <p class="track-duration d-none d-md-block">09:14</p>
+                                <div class="song-desc d-block d-md-none">
+                                    <p class="artist">Pablo Alborán</p>
+                                    <p class="track-name">Pasos de Cero</p>
+                                    <p class="track-duration">09:14</p>
+                                </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
                                 </span>
                             </a>
                             <a href="#" target="_blank" class="song-wrap">
                                 <img src="../includes/img/song-thumb-2.png" alt="Song2">
-                                <p class="artist">Pablo Alborán</p>
-                                <p class="track-name">Pasos de Cero</p>
-                                <p class="track-duration">09:14</p>
+                                <p class="artist d-none d-md-block">Pablo Alborán</p>
+                                <p class="track-name d-none d-md-block">Pasos de Cero</p>
+                                <p class="track-duration d-none d-md-block">09:14</p>
+                                <div class="song-desc d-block d-md-none">
+                                    <p class="artist">Pablo Alborán</p>
+                                    <p class="track-name">Pasos de Cero</p>
+                                    <p class="track-duration">09:14</p>
+                                </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
                                 </span>
                             </a>
                             <a href="#" target="_blank" class="song-wrap">
                                 <img src="../includes/img/song-thumb-1.png" alt="Song2">
-                                <p class="artist">Pablo Alborán</p>
-                                <p class="track-name">Pasos de Cero</p>
-                                <p class="track-duration">09:14</p>
+                                <p class="artist d-none d-md-block">Pablo Alborán</p>
+                                <p class="track-name d-none d-md-block">Pasos de Cero</p>
+                                <p class="track-duration d-none d-md-block">09:14</p>
+                                <div class="song-desc d-block d-md-none">
+                                    <p class="artist">Pablo Alborán</p>
+                                    <p class="track-name">Pasos de Cero</p>
+                                    <p class="track-duration">09:14</p>
+                                </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
                                 </span>
                             </a>
                             <a href="#" target="_blank" class="song-wrap">
                                 <img src="../includes/img/song-thumb-2.png" alt="Song2">
-                                <p class="artist">Pablo Alborán</p>
-                                <p class="track-name">Pasos de Cero</p>
-                                <p class="track-duration">09:14</p>
+                                <p class="artist d-none d-md-block">Pablo Alborán</p>
+                                <p class="track-name d-none d-md-block">Pasos de Cero</p>
+                                <p class="track-duration d-none d-md-block">09:14</p>
+                                <div class="song-desc d-block d-md-none">
+                                    <p class="artist">Pablo Alborán</p>
+                                    <p class="track-name">Pasos de Cero</p>
+                                    <p class="track-duration">09:14</p>
+                                </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
                                 </span>
@@ -113,10 +133,10 @@
                     </div>
                 </div>
                 <!-- news section -->
-                <div class="row">
+                <div class="row news-section">
                     <div class="col-12 section-title-container">
                         <div class="section-title">
-                            <h2>Mejores Momentos</h2>
+                            <h2><span class="title-mobile">Mejores</span> Momentos</h2>
                             <span class="subtitle">Mejores Momentos</span>
                         </div>
                     </div>

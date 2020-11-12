@@ -13,7 +13,7 @@
 		z-index 0
 		line-height 1
 		.section-title
-			span
+			.subtitle
 				position relative
 				color white
 				left 0
@@ -22,6 +22,10 @@
 				letter-spacing 1.2px
 	.iframe-container
 		z-index 3
+		@media (min-width 768px)
+			height 400px
+			iframe
+				object-fit cover
 	.show-wrap
 		display flex
 		justify-content center
@@ -33,14 +37,54 @@
 		.rss-tag
 			margin initial
 			margin-top 20px
+	@media (max-width 767px)
+		height auto
+		margin-bottom 0
+		.section-title
+			.subtitle
+				font-size 1.4em 
+			h2 
+				margin-top 10px
+				font-size 1.8em
+				letter-spacing -0.5px !important
+			
 			
 //overwrite styles on _aside.section.styl
 .last-songs-container
+	.section-title
+		.subtitle
+			left 2px
+			top 23px
 	.artist, .track-duration
 		color var(--color2-x1)
 	.track-name
 		color #434B46
 		font-family 'CeraProBold'
+	
+.follow-us-container
+	.section-title
+		.subtitle
+			left 2px
+
+.news-section
+	@media (max-width 767px)
+		.title-mobile
+			display none
+		.card
+			height 130px
+			img 
+				width 40%
+				height auto
+				object-fit cover
+				border-radius 3px
+			.card-body
+				width 60%
+				padding 10px
+				.card-text
+					font-family "CeraPro"
+					margin-bottom 10px
+				.card-title
+					margin-bottom 10px
 
 .banner-md-2
 	@media (max-width 967px)

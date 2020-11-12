@@ -10,7 +10,7 @@
 		margin 0 auto
 		position relative
 		transition all 0.8s ease
-		img
+		img:not(.pink-plus)
 			height 100%
 			width 100%
 			object-fit cover
@@ -42,6 +42,12 @@
 				display block
 			.icon-container
 				display inline-flex
+	@media (max-width 967px)
+		.img-wrap
+			height 140px
+			width 140px
+			margin 10px 20px 20px 0 !important
+		
 	//show description styles
 	.show-desc
 		h5 
@@ -74,4 +80,12 @@
 				margin-bottom 0
 				font-size 0.75em
 				color var(--color1-x1)
+		@media (max-width 767px)
+			text-transform none
+			.highlighted-text
+				font-size 0.9em
+			.show-date, .show-time
+				font-size 0.85em
+			.rss-tag
+				margin-top 10px !important
 		

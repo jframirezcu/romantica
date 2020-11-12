@@ -35,15 +35,16 @@
                 <!-- Left section of the content -->
                 <div class="col-md-9 shows-section">
                     <div class="row">
-                        <div class="col-sm-6 col-md-4 show-wrap">
+                        <div class="col-sm-6 col-lg-4 show-wrap">
                             <a href="#" target="_blank" class="img-wrap">
                                 <div class="hover-efect"></div>
                                 <img src="../includes/img/circled-img-1.png" alt="Show1">
                                 <div class="icon-container">
                                     <span class="icon-play"></span>
                                 </div>
+                                <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-block d-md-none">
                             </a>
-                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus">
+                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-none d-md-block">
                             <div class="show-desc">
                                 <h5>Carta de ajuste</h5>
                                 <p class="highlighted-text">Con Amanda Gallardo</p>
@@ -57,15 +58,39 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-4 show-wrap">
+                        <div class="col-sm-6 col-lg-4 show-wrap">
                             <a href="#" target="_blank" class="img-wrap">
                                 <div class="hover-efect"></div>
                                 <img src="../includes/img/circled-img-2.png" alt="Show1">
                                 <div class="icon-container">
                                     <span class="icon-play"></span>
                                 </div>
+                                <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-block d-md-none">
                             </a>
-                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus">
+                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-none d-md-block">
+                            <div class="show-desc">
+                                <h5>Entrevistas Romántica</h5>
+                                <p class="highlighted-text">Con Amanda Gallardo</p>
+                                <p class="show-date">Lunes a Viernes</p>
+                                <p class="show-time">07:00 a 08:30 horas</p>
+                                <div class="rss-tag">
+                                    <div class="icon-container">
+                                        <span class="icon-ig"></span>
+                                    </div>
+                                    <p>@sitagalvarez</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 show-wrap">
+                            <a href="#" target="_blank" class="img-wrap">
+                                <div class="hover-efect"></div>
+                                <img src="../includes/img/circled-img-3.png" alt="Show1">
+                                <div class="icon-container">
+                                    <span class="icon-play"></span>
+                                 </div>
+                                <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-block d-md-none">
+                            </a>
+                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-none d-md-block">
                             <div class="show-desc">
                                 <h5>Carta de ajuste</h5>
                                 <p class="highlighted-text">Con Amanda Gallardo</p>
@@ -79,15 +104,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-4 show-wrap">
+                         <div class="col-sm-6 col-lg-4 show-wrap">
                             <a href="#" target="_blank" class="img-wrap">
                                 <div class="hover-efect"></div>
                                 <img src="../includes/img/circled-img-3.png" alt="Show1">
                                 <div class="icon-container">
                                     <span class="icon-play"></span>
                                 </div>
+                                <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-block d-md-none">
                             </a>
-                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus">
+                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-none d-md-block">
                             <div class="show-desc">
                                 <h5>Carta de ajuste</h5>
                                 <p class="highlighted-text">Con Amanda Gallardo</p>
@@ -101,37 +127,16 @@
                                 </div>
                             </div>
                         </div>
-                         <div class="col-sm-6 col-md-4 show-wrap">
-                            <a href="#" target="_blank" class="img-wrap">
-                                <div class="hover-efect"></div>
-                                <img src="../includes/img/circled-img-3.png" alt="Show1">
-                                <div class="icon-container">
-                                    <span class="icon-play"></span>
-                                </div>
-                            </a>
-                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus">
-                            <div class="show-desc">
-                                <h5>Carta de ajuste</h5>
-                                <p class="highlighted-text">Con Amanda Gallardo</p>
-                                <p class="show-date">Lunes a Viernes</p>
-                                <p class="show-time">07:00 a 08:30 horas</p>
-                                <div class="rss-tag">
-                                    <div class="icon-container">
-                                        <span class="icon-ig"></span>
-                                    </div>
-                                    <p>@sitagalvarez</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-md-4 show-wrap">
+                        <div class="col-sm-6 col-lg-4 show-wrap">
                             <a href="#" target="_blank" class="img-wrap">
                                 <div class="hover-efect"></div>
                                 <img src="../includes/img/circled-img-2.png" alt="Show1">
                                 <div class="icon-container">
                                     <span class="icon-play"></span>
                                 </div>
+                                <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-block d-md-none">
                             </a>
-                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus">
+                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-none d-md-block">
                             <div class="show-desc">
                                 <h5>Carta de ajuste</h5>
                                 <p class="highlighted-text">Con Amanda Gallardo</p>
@@ -145,15 +150,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6 col-md-4 show-wrap">
+                        <div class="col-sm-6 col-lg-4 show-wrap">
                             <a href="#" target="_blank" class="img-wrap">
                                 <div class="hover-efect"></div>
                                 <img src="../includes/img/circled-img-1.png" alt="Show1">
                                 <div class="icon-container">
                                     <span class="icon-play"></span>
                                 </div>
+                                <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-block d-md-none">
                             </a>
-                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus">
+                            <img src="../includes/img/pink-plus.png" alt="Plus" class="pink-plus d-none d-md-block">
                             <div class="show-desc">
                                 <h5>Carta de ajuste</h5>
                                 <p class="highlighted-text">Con Amanda Gallardo</p>
