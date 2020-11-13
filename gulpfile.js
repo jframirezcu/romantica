@@ -13,9 +13,10 @@ var connect     = require('connect')
 var files       = ['views/*.php','views/**/*.php']
 
 // PATHS
-const BASE_DIR        = 'includes/'
+const BASE_DIR       = 'includes/'
+const BASE_DIR_THEME = './../mega-sites/static/romantica/_templates'
 
-const IMAGES_PATH     = `${BASE_DIR}/img`
+const IMAGES_PATH    = `${BASE_DIR}/img`
 
 gulp.task('styles', function(done) {
     gulp.src(['includes/stylus/*.styl'])
@@ -27,6 +28,21 @@ gulp.task('styles', function(done) {
         .pipe(gulp.dest('includes/css/'))
         done();
 });
+gulp.task('styles-theme', function(done) {
+    let destino_desktop = `${BASE_DIR_THEME}/desktop/includes/css`;
+    let destino_mobile  = `${BASE_DIR_THEME}/mobile/includes/css`;
+    gulp.src(['includes/stylus/*.styl'])
+        .pipe(stylus({
+            compress: true,
+            use: nib()
+        }))
+        .pipe(browserSync.stream())
+        .pipe(gulp.dest(destino_desktop))
+        .pipe(gulp.dest(destino_mobile))
+        done();
+});
+
+
 
 gulp.task('scripts', function(done) {
     gulp.src('includes/js/*.js')
@@ -42,6 +58,24 @@ gulp.task('scripts', function(done) {
         done();
 });
 
+gulp.task('scripts-theme', function(done) {
+    let destino_desktop = `${BASE_DIR_THEME}/desktop/includes/js/dist`;
+    let destino_mobile  = `${BASE_DIR_THEME}/mobile/includes/js/dist`;
+    gulp.src('includes/js/*.js')
+        .pipe(minify({
+            ext: {
+                min: '.min.js'
+            },
+            noSource: true ,
+            ignoreFiles: ['-min.js']
+        }))
+        .pipe(browserSync.stream())
+        .pipe(gulp.dest(destino_desktop))
+        .pipe(gulp.dest(destino_mobile))
+        done();
+});
+
+
 
 gulp.task('image', function (done) {
     gulp.src('includes/img/originals/*')
@@ -50,6 +84,17 @@ gulp.task('image', function (done) {
         .pipe(gulp.dest('includes/img/'));
         done();
 });
+gulp.task('image-theme', function (done) {
+    let destino_desktop = `${BASE_DIR_THEME}/desktop/includes/img`;
+    let destino_mobile  = `${BASE_DIR_THEME}/mobile/includes/img`;
+    gulp.src('includes/img/originals/*')
+        .pipe(changed('includes/img/'))
+        .pipe(image())
+        .pipe(gulp.dest(destino_desktop))
+        .pipe(gulp.dest(destino_mobile))
+        done();
+});
+
 
 gulp.task('server', function(done) {
     browserSync.init({
