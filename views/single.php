@@ -9,6 +9,10 @@
     <meta name="author" content="digitalproserver.com">
     <link rel="shortcut icon" href="../includes/img/favicon.png" type="image/x-icon">
 
+    <!-- Carousel default css -->
+    <link rel="stylesheet" href="../includes/css/vendor/owl-carousel/owl.carousel.min.css">   
+    <link rel="stylesheet" href="../includes/css/vendor/owl-carousel/owl.theme.default.min.css">
+
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -25,7 +29,7 @@
             <!-- second section main wrapper -->
             <div class="row">
                 <!-- Left section of the content -->
-                <div class="col-md-9">
+                <div class="col-lg-9">
                     <!-- single-section -->
                     <div class="row">
                         <div class="col-12 single-head">
@@ -52,7 +56,7 @@
                                             <span class="icon-wp"></span>
                                         </a>
                                     </li>
-                                    <li class="item">
+                                    <li class="item d-none d-md-block">
                                         <span class="share">Compartir</span>
                                     </li>
                                 </ul>
@@ -99,7 +103,7 @@
 
                     <div class="row related-content">
                         <h5 class="col-12">Notas relacionadas</h5>
-                        <a href="#" target="_blank" class="col-4">
+                        <a href="#" target="_blank" class="col-12 col-md-4">
                             <div class="related-content-item">
                                 <div class="thumb-wrap">
                                     <img src="../includes/img/related-thumb-1.png" alt="Second image">
@@ -108,7 +112,7 @@
                                 británico un rescate para la música en vivo</p>
                             </div>
                         </a>
-                        <a href="#" target="_blank" class="col-4">
+                        <a href="#" target="_blank" class="col-12 col-md-4">
                             <div class="related-content-item">
                                 <div class="thumb-wrap">
                                     <img src="../includes/img/related-thumb-2.png" alt="Second image">
@@ -117,7 +121,7 @@
                                 británico un rescate para la música en vivo</p>
                             </div>
                         </a>
-                        <a href="#" target="_blank" class="col-4">
+                        <a href="#" target="_blank" class="col-12 col-md-4">
                             <div class="related-content-item">
                                 <div class="thumb-wrap">
                                     <img src="../includes/img/related-thumb-3.png" alt="Second image">
@@ -134,7 +138,7 @@
                             <h4>Miley Cyrus no se quedó callada</h4>
                             <p>La intérprete de «Wrecking Ball» contó que todo fue porque rechazó la iluminación que los 
                             técnicos tenían preparada para ella, porque según lo que ellos argumentaron estaba hecha para que ella «se viera mejor»:</p>
-                            <p><strong>«La luz de belleza siempre se usa con las mujeres y les dije que la apagaran. Nunca le dirían a Travis Scott o Adam Levine que necesitan una luz para verse mejor».</strong></p>
+                            <p class="second-highlighted-txt"><strong>«La luz de belleza siempre se usa con las mujeres y les dije que la apagaran. Nunca le dirían a Travis Scott o Adam Levine que necesitan una luz para verse mejor».</strong></p>
                             <p>¿Por qué ocupar seguir perpetuando ideas que mantienen prejuicios sobre las mujeres? ¿Será Miley Cyrus la única mujer que tuvo que pasar por lo mismo en los VMA’s?</p>       
                         </div>
                     </div>
@@ -157,15 +161,15 @@
                                         <span class="icon-wp"></span>
                                     </a>
                                 </li>
-                                <li class="item">
+                                <li class="item d-none d-md-block">
                                     <span class="share">Compartir</span>
                                 </li>
                             </ul>
                         </div>
                     </div>
 
-                    <!-- more news section -->
-                    <div class="row">
+                    <!-- more news section on desktop -->
+                    <div class="row more-news-single">
                         <div class="col-12 section-title-container">
                             <div class="section-title">
                                 <h2>Más Noticias</h2>
@@ -225,14 +229,110 @@
                         </div>
                     </div>
                 </div>
+                <!-- more news section on mobile -->
+                <div class="col-12 third-slider-container">
+                    <!-- Third slider title -->
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4>Más noticias</h4>
+                        </div>
+                    </div>
+                    <!-- Third slider -->
+                    <div class="row">
+                        <div id="single-news-slider" class="col-sm-12 owl-carousel owl-theme">
+                            <a href="#" target="_blank" class="card main-card item">
+                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="card main-card item">
+                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="card main-card item">
+                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" target="_blank" class="card main-card item">
+                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        Dua Lipa y Ed Sheeran y 
+                                        más artistas piden al 
+                                        gobierno británico un 
+                                        rescate para la música en 
+                                        vivo
+                                    </p>
+                                    <div class="date-time">
+                                        <span class="icon-clock"></span>
+                                        <span class="date"> 
+                                            03/07/2020
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <!-- aside right section of the content -->
-                <div class="col-md-3 aside-section">
-                    <a href="#" target="_blank" class="banner-md-2">
-                        <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
-                    </a>
-                    <?php include 'includes/live-player.php'; ?>
-                    <?php include 'includes/follow-us.php'; ?>
-                    <?php include 'includes/aside-cards.php'; ?>
+                <div class="col-lg-3 aside-section">
+                    <div class="row">
+                        <a href="#" target="_blank" class="col-12 banner-md-2 d-none d-lg-block">
+                            <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+                        </a>
+                        <div class="col-12">
+                            <?php include 'includes/live-player.php'; ?></div>
+                        <div class="col-md-6 col-lg-12 d-none d-md-block justify-content-md-center">
+                            <?php include 'includes/follow-us.php'; ?>
+                        </div>
+                        <div class="col-12 d-block d-md-none">
+                            <?php include 'includes/last-songs.php'; ?>
+                        </div>
+                        <div class="col-12">
+                            <?php include 'includes/aside-cards.php'; ?>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- banner -->
@@ -249,6 +349,9 @@
 
     <!-- jquery -->
  	<script  src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- owl carousel script -->
+    <script src="../includes/js/vendor/owl.carousel.js"></script>
     
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
