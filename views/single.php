@@ -323,11 +323,8 @@
                         </a>
                         <div class="col-12">
                             <?php include 'includes/live-player.php'; ?></div>
-                        <div class="col-md-6 col-lg-12 d-none d-md-block justify-content-md-center">
+                        <div class="col-md-6 col-lg-12">
                             <?php include 'includes/follow-us.php'; ?>
-                        </div>
-                        <div class="col-12 d-block d-md-none">
-                            <?php include 'includes/last-songs.php'; ?>
                         </div>
                         <div class="col-12">
                             <?php include 'includes/aside-cards.php'; ?>

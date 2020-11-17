@@ -4,7 +4,17 @@
 @import "partials/_circled-show-img.styl" 
 
 .show-wrap
-	text-align center
+	text-align center !important
+	@media (max-width 967px)
+		display flex
+		text-align initial
+		margin-bottom 30px
+		.img-wrap
+			height auto
+			width auto
+		.show-desc .rss-tag
+			margin initial
+	// desktop styles
 	.img-wrap
 		border 3px solid #FA4C81 
 	.show-desc
@@ -23,20 +33,12 @@
 			p
 				color var(--color2-x2)
 	.pink-plus
-		margin-top -2px
+		margin -2px auto 0 auto
 		@media (max-width 967px)
 			position absolute
 			bottom -32px 
 			left 43%
 			height 30px
 			width 30px
-	@media (max-width 967px)
-		display flex
-		text-align initial
-		margin-bottom 30px
-		.img-wrap
-			height auto
-			width auto
-		.show-desc .rss-tag
-			margin initial
+	
 	
