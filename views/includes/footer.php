@@ -6,7 +6,7 @@
 		<div class="container main-footer">
 			<div class="row logo-container">
 			    <div class="col">
-					<img src="../includes/img/footer-main-logo.png" alt="Romántica">
+					<img src="../includes/img/footer-main-logo.png" alt="Romántica" class="img-fluid">
 			    </div>
 			</div>
 			<div class="row nav-rss-footer">

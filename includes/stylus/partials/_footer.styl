@@ -35,6 +35,8 @@
 					text-transform none !important 
 			.main-rss
 				text-align end
+				@media (max-width 967px)
+					text-align center
 				.icon-container
 					background-color white
 					min-width 2.3em
@@ -45,16 +47,6 @@
 					span
 						color var(--color1-x1)
 						font-size 1.4em
-				@media (max-width 967px)
-					text-align center
-			@media (max-width 967px)
-				text-align center !important
-				.nav-footer-title
-					margin-bottom 15px
-				.nav
-					margin-bottom 30px
-				.nav-link
-					line-height 1.2
 			.sites-network
 				@media (max-width 967px)
 					.nav 
@@ -65,7 +57,19 @@
 						margin-bottom 10px
 					.nav-item:not(:first-child) 
 						border-right 1px solid white
-				
+					.nav-link
+						padding 10px 7px !important
+						line-height 0 !important
+		@media (max-width 967px)
+			text-align center !important 
+			.nav-footer-title
+				margin-bottom 15px
+			.nav
+				margin-bottom 30px
+			.nav-link
+				line-height 1.2
+					
+					
 	.logos-footer-container
 		background rgba(0,0,0 ,0.2)
 		padding 20px 0

@@ -88,6 +88,12 @@
             <div class="container">
                 <!-- Mobile/Tablet live player -->
                 <div class="row d-block d-md-none">
+                    <div class="section-title-container col-12">
+                        <div class="section-title">
+                            <h2>en vivo</h2>
+                            <span class="subtitle">en vivo</span>
+                        </div>
+                    </div>
                     <div class="col-12">
                         <?php include 'includes/live-player.php'; ?>
                     </div>
@@ -319,7 +325,7 @@
                     <!-- aside right section of the content -->
                     <div class="col-lg-3 aside-section">
                         <div class="row">
-                            <div class="banner-container">
+                            <div class="banner-container col-12">
                                 <a href="#" target="_blank" class="banner-md-2">
                                     <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
                                 </a>
