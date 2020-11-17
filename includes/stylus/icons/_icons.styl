@@ -1,6 +1,7 @@
 //Variables
 icomoon-font-path ?= "../fonts/"
 
+icon-pause = "\e918"
 icon-menu = "\e916"
 icon-cerrar = "\e917"
 icon-wp = "\e900"
@@ -59,6 +60,9 @@ icon-youtube = "\e90e"
     span 
         font-size 1.5em
         
+.icon-pause
+  &:before
+    content icon-pause
 .icon-menu
   &:before
     content icon-menu

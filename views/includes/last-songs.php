@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="songs-container">
-    	<a href="#" target="_blank" class="song-wrap">
+    	<a href="#" class="song-wrap">
     		<img src="../includes/img/song-thumb-1.png" alt="Song1">
     		<div class="song-desc">
     			<p>Pablo Alborán</p>
@@ -15,9 +15,10 @@
     		</div>
     		<span class="icon-container">
     			<span class="icon-play"></span>
+                <span class="icon-pause"></span>
     		</span>
     	</a>
-    	<a href="#" target="_blank" class="song-wrap">
+    	<a href="#" class="song-wrap">
     		<img src="../includes/img/song-thumb-2.png" alt="Song2">
     		<div class="song-desc">
     			<p>Camilo y Eva Luna</p>
@@ -26,6 +27,7 @@
     		</div>
     		<span class="icon-container">
     			<span class="icon-play"></span>
+                <span class="icon-pause"></span>
     		</span>
     	</a>
     	<a href="#" target="_blank" class="song-wrap">
@@ -37,6 +39,7 @@
     		</div>
     		<span class="icon-container">
     			<span class="icon-play"></span>
+                <span class="icon-pause"></span>
     		</span>
     	</a>
     	<a href="#" target="_blank" class="song-wrap">
@@ -48,6 +51,7 @@
     		</div>
     		<span class="icon-container">
     			<span class="icon-play"></span>
+                <span class="icon-pause"></span>
     		</span>
     	</a>
     </div>

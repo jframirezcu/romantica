@@ -8,14 +8,18 @@ p
 	text-transform none
 
 @import "partials/_aside-section.styl" 
+.single-main-img
+	border-radius 10px
+	margin-bottom 20px
+	img
+		width 100%
+		height 100%
+		object-fit cover
+	@media (max-width 767px)
+		height 200px
+		padding 0
+		border-radius 0px 
 .single-head
-	.single-main-img
-		border-radius 10px
-		margin-bottom 20px
-		img
-			width 100%
-			height 100%
-			object-fit cover
 	.single-title
 		color var(--color1-x1)
 		font-size 2.5em
