@@ -34,15 +34,29 @@
 .hide-sm
 	@media (max-width 767px)
 		display none !important
+
+.hide-xs
+	@media (max-width 550px)
+		display none !important
+
+.card-img-wrap
+	@media (min-width 968px)
+		height 230px
+	@media (max-width 967px)
+		height 200px
+	img
+		height 100%
+		width 100%
+		object-fit cover
+		border-radius 8px 
 	
 .more-news-section
 	@media (max-width 767px)
 		.card
 			flex-direction unset
-			img 
+			.card-img-wrap 
 				width 40%
-				height auto
-				object-fit cover
+				height 120px
 			.card-body
 				width 60%
 				padding 10px
