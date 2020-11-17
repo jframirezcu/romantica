@@ -85,6 +85,7 @@
                                 </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
+                                    <span class="icon-pause"></span>
                                 </span>
                             </a>
                             <a href="#" target="_blank" class="song-wrap">
@@ -99,6 +100,7 @@
                                 </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
+                                    <span class="icon-pause"></span>
                                 </span>
                             </a>
                             <a href="#" target="_blank" class="song-wrap">
@@ -113,6 +115,7 @@
                                 </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
+                                    <span class="icon-pause"></span>
                                 </span>
                             </a>
                             <a href="#" target="_blank" class="song-wrap">
@@ -127,6 +130,7 @@
                                 </div>
                                 <span class="icon-container">
                                     <span class="icon-play"></span>
+                                    <span class="icon-pause"></span>
                                 </span>
                             </a>
                         </div>

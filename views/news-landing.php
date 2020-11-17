@@ -37,11 +37,13 @@
                         </div>
                         <div class="col-sm-6">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -54,11 +56,13 @@
                         </div>
                         <div class="col-sm-6">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-2.png" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -71,11 +75,13 @@
                         </div>
                         <div class="col-sm-6">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-3.png" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -88,11 +94,13 @@
                         </div>
                         <div class="col-sm-6">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -105,11 +113,13 @@
                         </div>
                         <div class="col-sm-6">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-2.png" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>
@@ -122,11 +132,13 @@
                         </div>
                         <div class="col-sm-6">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-3.png" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
-                                        Registro Civil inscribió a dos niños como hijos de una familia homoparenta
+                                        Registro Civil inscribió a dos niños como hijos de una familia homoparental
                                     </p>
                                     <div class="date-time">
                                         <span class="icon-clock"></span>

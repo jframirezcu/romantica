@@ -32,10 +32,10 @@
                 <div class="col-lg-9">
                     <!-- single-section -->
                     <div class="row">
+                        <div class="col-12 single-main-img">
+                            <img src="../includes/img/main-single-img.png" alt="Noticia1">
+                        </div>
                         <div class="col-12 single-head">
-                            <div class="single-main-img">
-                                <img src="../includes/img/main-single-img.png" alt="Noticia1">
-                            </div>
                             <h1 class="single-title">Miley Cyrus alzó la voz: Acusó trato sexista en su show para los VMA’s</h1>
                             <p class="single-sub-title">«¿Por qué me consideran una niña y no un genio creativo?» Esa fue una de las preguntas que Miley 
                             Cyrus incluyó en una entrevista donde acusó de sexismo a la producción de los VMA’s 2020.</p>
