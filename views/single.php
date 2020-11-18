@@ -178,7 +178,9 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
@@ -195,7 +197,9 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
@@ -212,7 +216,9 @@
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <a href="#" target="_blank" class="card main-card">
-                                <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
                                     <p class="card-text">
@@ -241,7 +247,9 @@
                     <div class="row">
                         <div id="single-news-slider" class="col-sm-12 owl-carousel owl-theme">
                             <a href="#" target="_blank" class="card main-card item">
-                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <p class="card-text">
                                         Dua Lipa y Ed Sheeran y 
@@ -259,7 +267,9 @@
                                 </div>
                             </a>
                             <a href="#" target="_blank" class="card main-card item">
-                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <p class="card-text">
                                         Dua Lipa y Ed Sheeran y 
@@ -277,7 +287,9 @@
                                 </div>
                             </a>
                             <a href="#" target="_blank" class="card main-card item">
-                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <p class="card-text">
                                         Dua Lipa y Ed Sheeran y 
@@ -295,7 +307,9 @@
                                 </div>
                             </a>
                             <a href="#" target="_blank" class="card main-card item">
-                                <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                <div class="card-img-wrap">
+                                    <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                </div>
                                 <div class="card-body">
                                     <p class="card-text">
                                         Dua Lipa y Ed Sheeran y 

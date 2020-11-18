@@ -102,7 +102,7 @@
                     <!-- Left section of the content -->
                     <div class="col-lg-9">
                         <!-- news section -->
-                        <div class="row">
+                        <div class="row news-index-section">
                             <div class="col-12 section-title-container">
                                 <div class="section-title">
                                     <h2>Noticias</h2>
@@ -111,7 +111,9 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">
@@ -128,7 +130,9 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">
@@ -145,7 +149,9 @@
                             </div>
                             <div class="col-sm-6 col-md-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <h5 class="card-title">Card title</h5>
                                         <p class="card-text">
@@ -237,7 +243,9 @@
                         <div class="row more-news">
                             <div class="col-sm-6 col-lg-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Registro Civil inscribió a dos niños como hijos de una familia homoparental
@@ -253,7 +261,9 @@
                             </div>
                             <div class="col-sm-6 col-lg-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Registro Civil inscribió a dos niños como hijos de una familia homoparental
@@ -269,7 +279,9 @@
                             </div>
                             <div class="col-sm-6 col-lg-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Registro Civil inscribió a dos niños como hijos de una familia homoparental
@@ -285,7 +297,9 @@
                             </div>
                             <div class="col-sm-6 col-lg-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Registro Civil inscribió a dos niños como hijos de una familia homoparental
@@ -301,7 +315,9 @@
                             </div>
                             <div class="col-sm-6 col-lg-4">
                                 <a href="#" target="_blank" class="card main-card">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Registro Civil inscribió a dos niños como hijos de una familia homoparental
@@ -362,7 +378,9 @@
                         <div class="row">
                             <div id="third-slider" class="col-sm-12 owl-carousel owl-theme">
                                 <a href="#" target="_blank" class="card main-card item">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Dua Lipa y Ed Sheeran y 
@@ -380,7 +398,9 @@
                                     </div>
                                 </a>
                                 <a href="#" target="_blank" class="card main-card item">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Dua Lipa y Ed Sheeran y 
@@ -398,7 +418,9 @@
                                     </div>
                                 </a>
                                 <a href="#" target="_blank" class="card main-card item">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Dua Lipa y Ed Sheeran y 
@@ -416,7 +438,9 @@
                                     </div>
                                 </a>
                                 <a href="#" target="_blank" class="card main-card item">
-                                    <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                                    <div class="card-img-wrap">
+                                        <img src="../includes/img/news-thumb-1.png" alt="show1">
+                                    </div>
                                     <div class="card-body">
                                         <p class="card-text">
                                             Dua Lipa y Ed Sheeran y 

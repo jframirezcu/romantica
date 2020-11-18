@@ -9,7 +9,21 @@
 		padding 15px 10px 
 	.card-text 
 		height 60px
+	.card-img-wrap
+		img
+			height 100%
+			width 100%
+			object-fit cover
+			border-radius 8px 
+.news-index-section
+	.card-img-wrap
+		@media (min-width 968px)
+			height 200px
+		@media (max-width 967px)
+			height 180px
 		
+
+
 .music-slider-container
 	background linear-gradient(top, var(--color1-x1), var(--color1-x0))
 	border-radius 5px
@@ -43,19 +57,21 @@
 	@media (max-width 967px)
 		margin-top 15px
 	.card
+		@media (min-width 968px)
+			.card-img-wrap
+				height 200px
 		@media (max-width 967px)
 			flex-direction unset
 			height 125px
-			img
+			.card-img-wrap
 				width 40%
-				height 100%
-				object-fit cover
+				height 120px
 			.card-body
 				width 60%
 			.date-time
 				justify-content flex-end
 	.card-body
-		@media (min-width 967px)
+		@media (min-width 968px)
 			height 115px !important
 	.card-text
 		margin-top 5px

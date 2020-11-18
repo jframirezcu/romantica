@@ -52,12 +52,14 @@
                     <div class="col-12 section-title-container">
                         <div class="section-title">
                             <h2>Mejores <span class="hide-sm">Momentos</span></h2>
-                            <span class="subtitle">Mejores Momentos</span>
+                            <span class="subtitle"><span class="hide-xs">Mejores</span> Momentos</span>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">
@@ -74,7 +76,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">
@@ -91,7 +95,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <h5 class="card-title">Card title</h5>
                                 <p class="card-text">
@@ -117,7 +123,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
@@ -133,7 +141,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
@@ -149,7 +159,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
@@ -165,7 +177,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-1.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
@@ -181,7 +195,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-2.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
@@ -197,7 +213,9 @@
                     </div>
                     <div class="col-sm-6 col-md-4">
                         <a href="#" target="_blank" class="card main-card">
-                            <img src="../includes/img/news-thumb-3.png" class="card-img-top" alt="show1">
+                            <div class="card-img-wrap">
+                                <img src="../includes/img/news-thumb-1.png" alt="show1">
+                            </div>
                             <div class="card-body">
                                 <p class="card-text">
                                     Registro Civil inscribió a dos niños como hijos de una familia homoparenta
