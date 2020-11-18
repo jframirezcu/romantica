@@ -6,9 +6,22 @@ class Base {
     constructor() {
 
         this._initSearchForm();
+        this.setListenerButtonShare();
     }
 
-  
+    
+
+    /**
+    * Evento para los botones compartir
+    */
+    setListenerButtonShare = () => {
+        //evento para los enlaces de compartir en redes sociales
+        $(document).on('click', '[data-share-network]', function(e){
+            e.preventDefault();
+            _utils._openWindow( $(this).attr('href'), 500, 500);
+        });
+    }
+
     /**
     * formulario del buscador
     */
