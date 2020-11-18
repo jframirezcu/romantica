@@ -42,7 +42,7 @@
                             <div class="single-caption">
                                 <ul class="feet-img-rss">
                                     <li class="item">
-                                        <a href="#" target="_blank" class="icon-container fb">
+                                        <a href="https://www.facebook.com/sharer.php?u=http://front-romantica-mega-radios.digitalproserver.com/programas/all-you-need-is-romantica/2020/11/17/nueva-notas-ejemplo-2.html" data-share-network="" target="_blank" class="icon-container fb">
                                             <span class="icon-fb"></span>
                                         </a>
                                     </li>
@@ -370,5 +370,7 @@
  	
     <!-- site proper styles -->
     <script  src="../includes/js/dist/script.min.js"></script>
+    <script  src="../includes/js/dist/main.min.js?r=<?php echo rand(1,9999); ?>"></script>
+    <script  src="../includes/js/dist/_main.js?r=<?php echo rand(1,9999); ?>"></script>
  </body>
  </html>
