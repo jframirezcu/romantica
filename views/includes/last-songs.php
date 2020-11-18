@@ -6,7 +6,7 @@
         </div>
     </div>
     <div class="songs-container">
-    	<a href="#" class="song-wrap">
+    	<a href="" class="song-wrap">
     		<img src="../includes/img/song-thumb-1.png" alt="Song1">
     		<div class="song-desc">
     			<p>Pablo Alborán</p>

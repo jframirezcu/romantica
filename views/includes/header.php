@@ -87,9 +87,9 @@
 			</div>
 			<div class="col-3 main-rss d-none d-md-block">
 				<div class="input-group search-box">
-					<a href="#" target="_blank" class="icon-container input-group-prepend">
+					<button type="button" class="icon-container input-group-prepend">
 	                    <span class="icon-search"></span>
-	                </a>
+	                </button>
 	                <input type="text" class="form-control" placeholder="Búsqueda" aria-label="Bùsqueda" aria-describedby="button-addon1">
 				</div>
                 <a href="#" target="_blank" class="icon-container">
