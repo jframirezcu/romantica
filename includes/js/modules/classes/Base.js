@@ -26,12 +26,14 @@ class Base {
     * formulario del buscador
     */
     _initSearchForm = () => {
-
-        $('.js-form-search').on('submit', (e)=>{
-            e.preventDefault();
-            var search    = $(e.target).find('input[name="search"]').val();
-            search        = _utils.sanitizeString(search);
-            location.href = global_domain+'/search/'+encodeURI(search)+'/';
+        
+        $('.js-form-search input[name="search"]').on("keydown", event => {
+            if (event.keyCode === 13) {
+                let search    = $(event.target).val();
+                search        = _utils.sanitizeString(search);
+                location.href = global_domain+'/search/'+encodeURI(search)+'/';
+                return;
+            }
         });
     }
 
