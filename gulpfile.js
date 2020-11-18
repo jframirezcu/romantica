@@ -1,3 +1,6 @@
+var browserify  = require('browserify');
+var source      = require('vinyl-source-stream');
+var buffer      = require('vinyl-buffer');
 var gulp        = require('gulp');
 var concat      = require('gulp-concat');
 var uglify      = require('gulp-uglify');
@@ -9,7 +12,8 @@ var browserSync = require('browser-sync').create();
 var reload      = browserSync.reload;
 var changed     = require('gulp-changed');
 var nib         = require('nib');
-var connect     = require('connect')
+var connect     = require('connect');
+var babelify    = require('babelify');
 var files       = ['views/*.php','views/**/*.php']
 
 // PATHS
@@ -75,6 +79,44 @@ gulp.task('scripts-theme', function(done) {
         done();
 });
 
+
+// ES6 COMPILE
+gulp.task('compile:es6', async function() {
+    browserify({
+        entries: 'includes/js/main.js',
+        //debug: true
+    })
+    .transform(babelify, {
+        presets: ['@babel/env']
+    })
+    .bundle()
+    .pipe(source('main.min.js'))
+    .pipe(buffer())
+    .pipe(uglify({
+        mangle: false
+    }))
+    .pipe(gulp.dest('includes/js/dist'))
+})
+// ES6 COMPILE
+gulp.task('compile:es6-theme', async function() {
+    let destino_desktop = `${BASE_DIR_THEME}/desktop/includes/js/dist`;
+    let destino_mobile  = `${BASE_DIR_THEME}/mobile/includes/js/dist`;
+    browserify({
+        entries: 'includes/js/main.js',
+        //debug: true
+    })
+    .transform(babelify, {
+        presets: ['@babel/env']
+    })
+    .bundle()
+    .pipe(source('main.min.js'))
+    .pipe(buffer())
+    .pipe(uglify({
+        mangle: false
+    }))
+    .pipe(gulp.dest(destino_desktop))
+    .pipe(gulp.dest(destino_mobile))
+})
 
 
 gulp.task('image', function (done) {

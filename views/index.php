@@ -486,12 +486,42 @@
     
     <!-- owl carousel script -->
     <script src="../includes/js/vendor/owl.carousel.js"></script>
+    <script src="../includes/js/vendor/handlebars.min-v4.7.6.js"></script>
 	
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
  	
     <!-- site proper styles -->
-    <script  src="../includes/js/dist/script.min.js"></script>
+    <script  src="../includes/js/dist/script.min.js?r=<?php echo rand(1,9999); ?>"></script>
+    <script  src="../includes/js/dist/main.min.js?r=<?php echo rand(1,9999); ?>"></script>
+    <script  src="../includes/js/dist/_main.js?r=<?php echo rand(1,9999); ?>"></script>
+
+    <script id="last-songs-template" type="text/x-handlebars-template">
+        {{#if items}}
+            <div class="section-title-container">
+                <div class="section-title">
+                    <h2>últimas</h2>
+                    <span class="subtitle">últimas <br class="d-block d-md-none"> canciones</span>
+                </div>
+            </div>
+            <div class="songs-container">
+
+                {{#each items}}
+                    <a href="javascript:void(0);" class="song-wrap">
+                        <img src="{{image}}" alt="{{song}}" style="width:62px;" height:62px;>
+                        <div class="song-desc">
+                            <p>{{artist}}</p>
+                            <p>{{song}}</p>
+                            <p>{{ti}}</p>
+                        </div>
+                    </a>
+                {{/each}}
+
+            </div>
+        {{/if}}
+
+    </script>
+
  </body>
  </html>

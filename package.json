@@ -11,7 +11,9 @@
     "@babel/core": "^7.11.6",
     "@babel/plugin-transform-runtime": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
+    "babelify": "^10.0.0",
     "browser-sync": "^2.26.12",
+    "browserify": "^17.0.0",
     "compress-images": "^1.9.5",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
@@ -22,7 +24,9 @@
     "gulp-minify": "^3.1.0",
     "gulp-rename": "^2.0.0",
     "gulp-stylus": "^2.7.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.11.2",

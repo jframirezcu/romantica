@@ -15,10 +15,10 @@
 						<!-- desktop block -->
 						<p class="on-air d-none d-md-block"><span class="on-air-state">Al aire/</span> <span class="on-air-desc">Radio online</span></p>
 						<!-- mobile block -->
-						<p class="on-air d-block d-md-none"><span class="on-air-state">Al aire/</span> <span class="show">Juan solo y denise ros</span></p>
+						<p class="on-air d-block d-md-none"><span class="on-air-state">Al aire/</span> <span class="show js-now-player__title">Juan solo y denise ros</span></p>
 						<!-- desktop block -->
-						<p class="show on-air d-none d-md-block">Juan solo y denise ros</p>
-						<p class="song d-none d-md-block">No rompo tus fotos</p>
+						<p class="show on-air d-none d-md-block js-now-player__title">Juan solo y denise ros</p>
+						<p class="song d-none d-md-block js-now-player__subtitle">No rompo tus fotos</p>
 					</div>
 				</div>
 				<div class="box-sm-wrap live">
