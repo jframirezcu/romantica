@@ -24,6 +24,9 @@ jQuery(document).ready(function() {
         $(".icon-play", this).hide();
         $(".icon-pause", this).show();
     });
+    $(".input-group-prepend").click(function() {
+        $(this).siblings().toggle().css("display", "width");
+    });
     $('#second-slider').owlCarousel({
         loop:true,
         margin:10,
