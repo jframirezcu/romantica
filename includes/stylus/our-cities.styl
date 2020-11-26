@@ -1,0 +1,34 @@
+@import "main.styl" 
+@import "partials/_small-components.styl"
+@import "partials/_aside-section.styl"
+@import "partials/_pagination.styl"
+
+.hide-xs
+	@media (max-width 550px)
+		display none !important 
+
+.main-card
+	.card-img-wrap
+		height 170px
+		.news-hover
+			position absolute
+			top 0
+			right 0
+			height inherit
+			display none
+		img
+			width 100%
+			height 100%
+			object-fit cover
+			border-radius 8px
+	.card-body
+		height 100px
+		.card-title
+			font-size 1.1em
+		.bg-news-img
+			position absolute
+			bottom 0
+			right 0
+	&:hover
+		.news-hover
+			display block

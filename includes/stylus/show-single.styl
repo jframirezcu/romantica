@@ -3,6 +3,25 @@
 @import "partials/_circled-show-img.styl" 
 @import "partials/_aside-section.styl"
 
+// modal styles
+.modal-content
+	@media (max-width 767px)
+		height 250px
+		img, iframe, video
+			height 100%
+			width 100%
+			object-fit cover
+.close
+	position absolute
+	right 15px
+	opacity 1
+	span
+		color white
+		font-size 1.8em
+	&:focus
+		outline none 
+
+// section styles
 .show-single
 	height 450px
 	background linear-gradient(top, var(--color1-x1), var(--color1-x0))

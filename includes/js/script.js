@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
                 items:4
             }
         }
-    })
+    });
     $('#single-news-slider').owlCarousel({
         loop:true,
         margin:10,
@@ -62,8 +62,18 @@ jQuery(document).ready(function() {
                 items:4
             }
         }
-    })
+    });
     $('.carousel').carousel({
         interval: false
-    })
+    });
+    $( window ).scroll(function() {
+        if ($(window).scrollTop() !== 0) {
+            $( ".fixed-dropdown" ).fadeIn();
+            $( ".scroll-none" ).fadeOut();
+        }
+        else {
+            $( ".fixed-dropdown" ).fadeOut();
+            $( ".scroll-none" ).fadeIn();
+        }
+    });
 });

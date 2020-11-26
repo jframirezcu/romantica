@@ -1,6 +1,43 @@
-<header class="container-fluid header-container">
+<header class="container-fluid header-container sticky-top">
 	<div class="container">
 		<div class="row">
+			<!-- dropdown only visible on scroll -->
+			<div class="dropdown col-1 fixed-dropdown">
+		  		<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			    	<span class="icon-menu"></span>
+			  	</a>
+			  	<div id="fixed-menu-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+				  	<div class="dropdown-menu-custom">
+				  		<a class="icon-cerrar"></a>
+					    <a class="dropdown-item active" href="#">Hoy</a>
+					    <a class="dropdown-item" href="#">Mujer</a>
+					    <a class="dropdown-item" href="#">Música</a>
+					    <a class="dropdown-item" href="#">Tendencias</a>
+					    <a class="dropdown-item" href="#">Ocio</a>
+					    <a class="dropdown-item" href="#">Estilo</a>
+					    <a class="dropdown-item" href="#">Nuestras Ciudades</a>
+					    <a class="dropdown-item" href="#">Programas</a>
+						<div class="main-rss">
+		                    <a href="#" target="_blank" class="icon-container">
+		                        <span class="icon-wp"></span>
+		                    </a>
+		                    <a href="#" target="_blank" class="icon-container">
+		                        <span class="icon-fb"></span>
+		                    </a>
+		                    <a href="#" target="_blank" class="icon-container">
+		                        <span class="icon-twitter"></span>
+		                    </a>
+		                    <a href="#" target="_blank" class="icon-container">
+		                        <span class="icon-ig"></span>
+		                    </a>
+		                    <a href="#" target="_blank" class="icon-container">
+		                        <span class="icon-youtube"></span>
+		                    </a>
+		    			</div>
+		    		</div>
+			  	</div>
+			</div>
+			
 			<div class="col-3 d-none d-md-block logo-desktop-container">
 				<div class="logo-container">
 					<img src="../includes/img/main-logo.png" alt="Romántica" class="img-fluid">
@@ -109,9 +146,10 @@
                 </a>
 			</div>
 		</div>
+
 		<!-- main nav -->
 		<div class="row d-none d-md-block">
-			<div class="col">
+			<div class="col scroll-none">
 				<div class="nav header-nav">
 					<a href="#" target="_blank" class="nav-link">Hoy</a>
 					<a href="#" target="_blank" class="nav-link">Mujer	</a>
@@ -126,7 +164,7 @@
 		</div>
 
 		<!-- Banner lg -->
-        <div class="row banner-container">
+        <div class="row banner-container scroll-none">
             <a href="#" target="_blank" class="col banner-lg">
                 <img src="../includes/img/banner-1.png" alt="banner-1">
             </a>

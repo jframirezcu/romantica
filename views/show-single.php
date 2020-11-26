@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="show-wrap">
-                    <a href="#" target="_blank" class="img-wrap">
+                    <a href="#" target="_blank" class="img-wrap" data-toggle="modal" data-target="#showsModal">
                         <div class="hover-efect"></div>
                         <img src="../includes/img/circled-img-1.png" alt="Show1">
                         <div class="icon-container">
@@ -53,6 +53,17 @@
                         </div>
                     </div>
                 </div>
+                <!-- Modal for click show -->
+                <div class="modal fade" id="showsModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                            <img src="../includes/img/modal-shows-img.png" alt="Plus">
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="iframe-container">
@@ -63,7 +74,7 @@
         <!-- second section main wrapper -->
         <div class="row">
             <!-- Left section of the content -->
-            <div class="col-md-9">
+            <div class="col-lg-9">
                 <div class="row">
                     <div class="col-12 last-songs-container">
                         <div class="section-title-container">
@@ -183,12 +194,18 @@
             </div>
 
             <!-- aside right section of the content -->
-            <div class="col-md-3 aside-section">
-                <a href="#" target="_blank" class="banner-md-2">
-                    <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
-                </a>
-                <?php include 'includes/follow-us.php'; ?>
-                <?php include 'includes/aside-cards.php'; ?>
+            <div class="col-lg-3 aside-section">
+                <div class="row">
+                    <a href="#" target="_blank" class="banner-md-2 col-12">
+                        <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
+                    </a>
+                    <div class="col-md-6 col-lg-12">
+                        <?php include 'includes/follow-us.php'; ?>
+                    </div>
+                    <div class="col-md-6 col-lg-12">
+                        <?php include 'includes/aside-cards.php'; ?>
+                    </div>
+                </div>
             </div>
         </div>
         
@@ -207,6 +224,9 @@
 
     <!-- jquery -->
  	<script  src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- owl carousel script -->
+    <script src="../includes/js/vendor/owl.carousel.js"></script>
     
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
