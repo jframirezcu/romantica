@@ -38,17 +38,28 @@
 			span
 				color white
 				font-size 1.4em
-		&:hover, &:focus
+		&:hover
 			.hover-efect
 				display block
 			.icon-container
 				display inline-flex
-	@media (max-width 967px)
+	@media (max-width 450px)
 		.img-wrap
-			height 140px
-			width 140px
+			height 150px
+			width 150px
 			margin 10px 20px 20px 0 !important
-		
+	@media (min-width 451px) and (max-width 575px)  
+		.img-wrap
+			height 170px
+			width 170px
+			margin 10px 20px 20px 0 !important
+	@media (min-width 576px) and (max-width 967px)
+		.img-wrap
+			height 180px
+			width 180px
+	@media (max-width 767px)
+		.img-wrap
+			margin-bottom 40px		
 	//show description styles
 	.show-desc
 		h5 

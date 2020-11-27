@@ -1,6 +1,7 @@
 @import "main.styl" 
 @import "partials/_small-components.styl"
 @import "partials/_aside-section.styl"
+@import "partials/_pagination.styl"
 
 // overwrite styles on _small-components.styl
 .main-card
@@ -21,46 +22,6 @@
 			width 100%
 			object-fit cover
 			border-radius 8px 
-		
-.pagination
-	margin 15px 0 30px 0
-	display flex
-	justify-content center
-	align-items center
-	@media (min-width 967px)
-		margin 25px 0 35px 0
-	.block
-		display flex
-		justify-content center
-		align-items center
-		height 40px
-		width 40px
-		text-decoration none
-		background #F0EFEF
-		margin 0 0.1em
-		border-radius 5px 
-		color black
-		font-weight normal
-		&:hover
-			background var(--color1-x1)
-			color white
-		.icon-arrow-left, .icon-arrow-right 
-			font-size 1.25em
-		@media (max-width 767px)
-			height 45px
-			width 45px
-			font-size 1.2em
-	.prev, .next
-		background var(--color2-x2)
-		color white		
-	.pg-number	
-		font-size 1.1em
-	.disabled
-		opacity 0.5
-		pointer-events none
-	.active
-		background var(--color1-x1)
-		color white
 		
 .last-songs-container
 	.section-title

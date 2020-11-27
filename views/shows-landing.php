@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <!-- Left section of the content -->
-                <div class="col-md-9 shows-section">
+                <div class="col-lg-9 shows-section">
                     <div class="row">
                         <div class="col-sm-6 col-lg-4 show-wrap">
                             <a href="#" target="_blank" class="img-wrap">
@@ -58,6 +58,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-sm-6 col-lg-4 show-wrap">
                             <a href="#" target="_blank" class="img-wrap">
                                 <div class="hover-efect"></div>
@@ -176,7 +177,7 @@
                     </div>
                 </div>
                 <!-- aside right section of the content -->
-                <div class="col-md-3 aside-section">
+                <div class="col-lg-3 aside-section">
                     <a href="#" target="_blank" class="banner-md-2 banner-container">
                         <img src="../includes/img/banner-md-2.png" alt="Ads" class="img-fluid">
                     </a>

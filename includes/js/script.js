@@ -64,9 +64,23 @@ jQuery(document).ready(function() {
                 items:4
             }
         }
-    })
+    });
+    
+
     initSingleNewsSlider();
+
+
     $('.carousel').carousel({
         interval: false
-    })
+    });
+    $( window ).scroll(function() {
+        if ($(window).scrollTop() !== 0) {
+            $( ".fixed-dropdown" ).fadeIn();
+            $( ".scroll-none" ).fadeOut();
+        }
+        else {
+            $( ".fixed-dropdown" ).fadeOut();
+            $( ".scroll-none" ).fadeIn();
+        }
+    });
 });

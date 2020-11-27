@@ -1,19 +1,22 @@
 @import "main.styl" 
 @import "partials/_small-components.styl"
 @import "partials/_aside-section.styl" 
-@import "partials/_circled-show-img.styl" 
+@import "partials/_circled-show-img.styl"
 
 .show-wrap
 	text-align center !important
-	@media (max-width 967px)
+	@media (max-width 575px)
 		display flex
-		text-align initial
+		text-align initial !important
 		margin-bottom 30px
-		.img-wrap
-			height auto
-			width auto
 		.show-desc .rss-tag
 			margin initial
+		.show-desc
+			display flow-root
+			align-self center
+	@media (max-width 485px)
+		.show-desc
+			width 150px
 	// desktop styles
 	.img-wrap
 		border 3px solid #FA4C81 
@@ -34,7 +37,7 @@
 				color var(--color2-x2)
 	.pink-plus
 		margin -2px auto 0 auto
-		@media (max-width 967px)
+		@media (max-width 767px)
 			position absolute
 			bottom -32px 
 			left 43%
