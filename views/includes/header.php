@@ -2,11 +2,11 @@
 	<div class="container">
 		<div class="row">
 			<!-- dropdown only visible on scroll -->
-			<div class="dropdown col-1 fixed-dropdown">
-		  		<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<div class="col-md-1 fixed-dropdown">
+		  		<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 			    	<span class="icon-menu"></span>
 			  	</a>
-			  	<div id="fixed-menu-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+			  	<div id="fixed-menu-dropdown" class="dropdown-menu" aria-labelledby="dropdownMenuLink2">
 				  	<div class="dropdown-menu-custom">
 				  		<a class="icon-cerrar"></a>
 					    <a class="dropdown-item active" href="#">Hoy</a>
@@ -71,7 +71,7 @@
 			<!-- element visible only on mobile and tablet -->
 			<div class="col-12 d-xs-block d-md-none">
 				<div class="mobile-menu-container">
-					<div class="dropdown">
+					<div class="dropdown" id="dropdown-mobile">
 				  		<a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					    	<span class="icon-menu"></span>
 					  	</a>

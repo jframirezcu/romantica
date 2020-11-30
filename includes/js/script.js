@@ -66,14 +66,16 @@ jQuery(document).ready(function() {
     $('.carousel').carousel({
         interval: false
     });
-    $( window ).scroll(function() {
-        if ($(window).scrollTop() !== 0) {
-            $( ".fixed-dropdown" ).fadeIn();
-            $( ".scroll-none" ).fadeOut();
-        }
-        else {
-            $( ".fixed-dropdown" ).fadeOut();
-            $( ".scroll-none" ).fadeIn();
-        }
-    });
+    if (window.screen.width >= 768) {
+        $( window ).scroll(function() {
+            if ($(window).scrollTop() !== 0) {
+                $( ".fixed-dropdown" ).fadeIn();
+                $( ".scroll-none" ).fadeOut();
+            }
+            else {
+                $( ".fixed-dropdown" ).fadeOut();
+                $( ".scroll-none" ).fadeIn();
+            }
+        });
+    }
 });
