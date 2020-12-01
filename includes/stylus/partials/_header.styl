@@ -3,16 +3,17 @@
 	background white
 	margin-top -1px
 	@media (max-width 767px)
+		position fixed 
 		padding 15px 0
 	.logo-desktop-container
 		align-self center
 		transition all .3s ease
 	.box-container
-		@media (max-width 767px)
+		@media (max-width 967px)
 			justify-content space-between
 		.box-sm-wrap
 			@media (max-width 967px)
-				width max-content
+				width 100%
 		.play
 			font-size 0.7em
 			line-height 1.2
@@ -151,20 +152,11 @@
 			border 1px solid var(--color1-x1)
 			.icon-search
 				color white	
-	
+
+#nav-open-bg
+	@media (max-width 767px)
+		margin-top 128px 
 				
-//styles for overlay when dropdown is openned on mobile
-#nav-dropdown
-	width 106vw
-	overflow hidden
-	background-color: rgba(0, 0, 0, 0.5)
-	height 100vh
-	top 124px !important
-	left -11px !important
-	padding 0
-	border-radius 0
-	margin 0
-	
 .fixed-dropdown
 	position relative
 	display none
@@ -181,11 +173,23 @@
 			span
 				color var(--color1-x1)
 		transition all .3s ease
-		@media (max-width 967px)
-			display none !important
+		@media (max-width 767px)
+			display none !important 
 	#fixed-menu-dropdown
 		position absolute
 		top 30px !important
-		left -38px !important
+		left -1px !important
 		.dropdown-menu-custom
 			width 100%
+			
+#nav-dropdown
+	background-color rgba(0,0,0,0.5)
+	height 100%
+	top 126px !important
+	padding 0
+	border-radius 0
+	width 101vw
+	margin 0
+	left -7px !important
+	position fixed !important
+	transform none !important

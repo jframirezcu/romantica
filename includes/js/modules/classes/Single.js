@@ -78,8 +78,6 @@ class Single {
                         .show()
                         .addClass('loaded');
 
-                    //inicializa owl carousel
-                    initSingleNewsSlider();
                 }
                 else{
                     $this
