@@ -49,7 +49,6 @@
                                             03/07/2020
                                         </span>
                                     </div>
-                                    <img src="../includes/img/news-wave-img.png" alt="wave" class="bg-news-img">
                                 </div>
                             </a>
                         </div>
@@ -67,7 +66,6 @@
                                             03/07/2020
                                         </span>
                                     </div>
-                                    <img src="../includes/img/news-wave-img.png" alt="wave" class="bg-news-img">
                                 </div>
                             </a>
                         </div>
@@ -85,7 +83,6 @@
                                             03/07/2020
                                         </span>
                                     </div>
-                                    <img src="../includes/img/news-wave-img.png" alt="wave" class="bg-news-img">
                                 </div>
                             </a>
                         </div>
@@ -103,7 +100,6 @@
                                             03/07/2020
                                         </span>
                                     </div>
-                                    <img src="../includes/img/news-wave-img.png" alt="wave" class="bg-news-img">
                                 </div>
                             </a>
                         </div>
@@ -121,7 +117,6 @@
                                             03/07/2020
                                         </span>
                                     </div>
-                                    <img src="../includes/img/news-wave-img.png" alt="wave" class="bg-news-img">
                                 </div>
                             </a>
                         </div>
@@ -139,7 +134,6 @@
                                             03/07/2020
                                         </span>
                                     </div>
-                                    <img src="../includes/img/news-wave-img.png" alt="wave" class="bg-news-img">
                                 </div>
                             </a>
                         </div>
