@@ -169,6 +169,7 @@
 
 <script>
 	var global_placeholder        = '';
+	var global_domain             = "http://localhost/romantica/views/";
 	var global_url_romantica_now  = 'https://vivo.romantica.cl/json/now.json';
 	var global_url_romantica_last = 'https://vivo.romantica.cl/json/last.json';
 </script>

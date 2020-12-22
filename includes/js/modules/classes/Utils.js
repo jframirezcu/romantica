@@ -58,6 +58,53 @@ class Utils {
     }
     
 
+    /**
+    * Retorna la url de la pagina a cargar (nota a la que se le hizo click)
+    *
+    * @param {string} string Url a la que se le hizo click en el sitio
+    *
+    * @return {string|bool} url para cargar en el sitio o false en caso de error
+    */
+    returnUrlStatic = (string='') => {
+        try{
+            if(!string || string==='#' || string[0]==='#' || typeof global_domain==='undefined' || global_domain=='')
+                return false;
+
+            let url        = new URL( string, global_domain || '' );
+            let url_domain = new URL( global_domain );
+            if( url_domain.host!=url.host )
+                return false;
+
+            return url.href;
+        }
+        catch(e){
+            return false;
+        }
+    }
+
+    /**
+    * Verifica si la url a analizar es del sitio o no, necesita la variable global "global_domain" para realize la comprobacion, si no solo retornara "falso".
+    *
+    * @param {string} url Url del enlace a verificar
+    *
+    * @return {bool} true si la url es la misma del sitio, falso si la url no es del sitio
+    */
+    urlIsFromTheSite = (url=false) => {
+        try{
+            if(!url || url==='#' || url[0]==='#' || typeof global_domain==='undefined' || global_domain=='')
+                return false;
+
+            url            = new URL( url, global_domain || '' );
+            let url_domain = new URL( global_domain );
+            if( url_domain.host!=url.host )
+                return false;
+            return true;
+        }
+        catch(e){
+            return false;
+        }
+    }
+
 }
 
 export default Utils;
