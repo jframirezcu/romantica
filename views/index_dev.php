@@ -515,11 +515,11 @@
 
                 {{#each items}}
                     <a href="javascript:void(0);" class="song-wrap">
-                        <img src="{{image}}" alt="{{song}}" style="width:62px;" height:62px;>
+                        <img src="{{image}}" alt="{{name}}" style="width:62px;" height:62px;>
                         <div class="song-desc">
-                            <p>{{artist}}</p>
-                            <p>{{song}}</p>
-                            <p>{{ti}}</p>
+                            <p>{{artist.name}}</p>
+                            <p>{{name}}</p>
+                            <p>{{duration}}</p>
                         </div>
                     </a>
                 {{/each}}

@@ -4,6 +4,7 @@ import Utils from './classes/Utils';
 //modulos
 import * as single from './single';
 import * as home from './home';
+import * as nowLastSong from './nowLastSong';
 import * as googleAnalytics from './googleAnalytics';
 
 //asignaciones
@@ -61,6 +62,7 @@ const loadContentStatic = (url=false) => {
 				loadAds(); // carga la publicidad
 				single.loadSingleFunctions(); // inicializa las funciones del single
 				home.loadHomeFunctions();
+				nowLastSong.lastSong();
 				initEventAjax('.js-content-static .js-link-static a'); // inicializa los nuevos enlaces cargados
 				googleAnalytics.sendViewGA(); //envia el pageview de la nueva pagina
 			},100);

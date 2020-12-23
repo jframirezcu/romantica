@@ -13,63 +13,78 @@ class Api {
     }
 
     request(endpoint='', method = 'GET', data={}){
-        
-        return new Promise((resolve, reject)=>{
-            var ajaxConfig = {
-                method   : method,
-                url      : endpoint,
-                data     : data,
-                dataType : this.dataType,
-                cache    : false,
-                success  : function(response){
-                    resolve(response);
-                },
-                error : function(){
-                    reject({status: 'error',msg: 'Error en el servidor, por favor inténtelo de nuevo más tarde.'});
-                }
-            };
-            if( (data instanceof FormData)==true ){
-                ajaxConfig.contentType = false;
-                ajaxConfig.processData = false;
-            }
 
-            $.ajax(ajaxConfig);
-        });
-
-
-    }
-
-    requestSongJsonp( endpoint='' ){
-        
-        if(endpoint=='') return;
-
-        var ajaxConfig = {
-            method   : 'GET',
-            url      : endpoint,
-            dataType : 'jsonp',
-            cache    : false,
+        const options = {
+            method  : method,
+            cache   : 'no-cache',
         };
-        $.ajax(ajaxConfig);
+        if(method.toLowerCase()!=='get' && method.toLowerCase()!=='head' )
+            options.body = data;
 
-
-        // llamamos nuevamente a la funcion a los x segundos (esto se repetira en el sitio)
-        setTimeout(function(){
-            new Api().requestSongJsonp(endpoint);
-        },50000);
+        const promise = fetch(endpoint,options);
+        return promise
+                .then( response => response.json() );
     }
 
-    requestLastSongJsonp( endpoint='' ){
+    
+    // request(endpoint='', method = 'GET', data={}){
         
-        if(endpoint=='') return;
+    //     return new Promise((resolve, reject)=>{
+    //         var ajaxConfig = {
+    //             method   : method,
+    //             url      : endpoint,
+    //             data     : data,
+    //             dataType : this.dataType,
+    //             cache    : false,
+    //             success  : function(response){
+    //                 resolve(response);
+    //             },
+    //             error : function(){
+    //                 reject({status: 'error',msg: 'Error en el servidor, por favor inténtelo de nuevo más tarde.'});
+    //             }
+    //         };
+    //         if( (data instanceof FormData)==true ){
+    //             ajaxConfig.contentType = false;
+    //             ajaxConfig.processData = false;
+    //         }
 
-        var ajaxConfig = {
-            method   : 'GET',
-            url      : endpoint,
-            dataType : 'jsonp',
-            cache    : false,
-        };
-        $.ajax(ajaxConfig);
-    }
+    //         $.ajax(ajaxConfig);
+    //     });
+
+
+    // }
+
+    // requestSongJsonp( endpoint='' ){
+        
+    //     if(endpoint=='') return;
+
+    //     var ajaxConfig = {
+    //         method   : 'GET',
+    //         url      : endpoint,
+    //         dataType : 'jsonp',
+    //         cache    : false,
+    //     };
+    //     $.ajax(ajaxConfig);
+
+
+    //     // llamamos nuevamente a la funcion a los x segundos (esto se repetira en el sitio)
+    //     setTimeout(function(){
+    //         new Api().requestSongJsonp(endpoint);
+    //     },50000);
+    // }
+
+    // requestLastSongJsonp( endpoint='' ){
+        
+    //     if(endpoint=='') return;
+
+    //     var ajaxConfig = {
+    //         method   : 'GET',
+    //         url      : endpoint,
+    //         dataType : 'jsonp',
+    //         cache    : false,
+    //     };
+    //     $.ajax(ajaxConfig);
+    // }
 }
 
 export default Api;
