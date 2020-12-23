@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Site proper css -->
- 	<link rel="stylesheet" href="../includes/css/our-cities.css">
+ 	<link rel="stylesheet" href="../includes/css/main.css">
  </head>
  <body>
     <!-- File stored in views/includes -->
@@ -21,7 +21,7 @@
     <!-- End Header -->
 
     <!-- Parallax-container -->
-    <div class="site-parallax">
+    <div class="site-parallax our-cities-styles">
         <div class="container">
             <!-- second section main wrapper -->
             <div class="row">
