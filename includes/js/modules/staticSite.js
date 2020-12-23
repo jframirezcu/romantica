@@ -3,6 +3,7 @@ import Utils from './classes/Utils';
 
 //modulos
 import * as single from './single';
+import * as home from './home';
 import * as googleAnalytics from './googleAnalytics';
 
 //asignaciones
@@ -33,6 +34,7 @@ const loadContentStatic = (url=false) => {
 		let content   = dom.querySelector('.js-content-static').innerHTML;
 		let headTitle = dom.title;
 		let path_mega = dom.querySelector('#js-mega-script').dataset.path;
+		let src_style = dom.querySelector('#js-style-site').href || '';
 		
 		//si no hay contenido, retorna sin hacer nada
 		if(!content)
@@ -41,6 +43,7 @@ const loadContentStatic = (url=false) => {
 		//asigna los datos nuevos a la pagina actual
 		document.title                                         = headTitle;
 		document.querySelector('#js-mega-script').dataset.path = path_mega;
+		document.querySelector('#js-style-site').href          = src_style;
 		document.querySelector('.js-content-static').innerHTML = content;
 
 		//cambia la url actual por la nueva y agrega la entrada en el historial
@@ -54,6 +57,7 @@ const loadContentStatic = (url=false) => {
 			setTimeout(()=>{
 				loadAds(); // carga la publicidad
 				single.loadSingleFunctions(); // inicializa las funciones del single
+				home.loadHomeFunctions();
 				initEventAjax('.js-content-static .js-link-static a'); // inicializa los nuevos enlaces cargados
 				googleAnalytics.sendViewGA(); //envia el pageview de la nueva pagina
 			},100);
@@ -107,7 +111,9 @@ const initEventAjax = ( element_text = '') => {
 			if(enlaces.dataset.hasEventStatic)
 				return;
 
-			if(!_utils.urlIsFromTheSite(enlaces.href))
+			// if(!_utils.urlIsFromTheSite(enlaces.href))
+			// 	return;
+			if(!_utils.urlIsFromTheSite(enlaces.getAttribute('href')))
 				return;
 
 			enlaces.dataset.hasEventStatic = 1;

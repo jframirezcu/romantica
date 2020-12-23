@@ -118,6 +118,15 @@ gulp.task('compile:es6-theme', async function() {
     .pipe(gulp.dest(destino_mobile))
 })
 
+
+gulp.task('watch:es6', done => {
+    gulp.watch(['includes/js/modules/*.js', 'includes/js/modules/classes/*.js','includes/js/main.js'], gulp.series('compile:es6', done => {
+        done()
+    }))
+
+    done()
+})
+
 //archivo script.js y main.js
 gulp.task('scripts:es6', gulp.series('scripts', 'compile:es6', done => {
     done()
@@ -161,6 +170,7 @@ gulp.task('server', function(done) {
     gulp.watch("./includes/img/originals/*", gulp.series('image'));
     done();
 });
+
 
 
 gulp.task('default', gulp.parallel('server'), done => {

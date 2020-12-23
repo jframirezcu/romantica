@@ -7,6 +7,10 @@ class Base {
 
         this._initSearchForm();
         this.setListenerButtonShare();
+        this.fixedDropdown();
+        // this.changePlayPause();
+        this.inputSearchToggleDisplay();
+
     }
 
     
@@ -34,6 +38,46 @@ class Base {
                 location.href = global_domain+'/search/'+encodeURI(search)+'/';
                 return;
             }
+        });
+    }
+
+
+    /**
+    * segun el scroll, deja el menu en fixed o no
+    */
+    fixedDropdown = () =>{
+        if (window.screen.width >= 768) {
+            $( window ).scroll(function() {
+                if ($(window).scrollTop() !== 0) {
+                    $( ".fixed-dropdown" ).fadeIn();
+                    $( ".scroll-none" ).fadeOut();
+                }
+                else {
+                    $( ".fixed-dropdown" ).fadeOut();
+                    $( ".scroll-none" ).fadeIn();
+                }
+            });
+        }
+    }
+
+    
+    /**
+    * Evento para mostrar el play o pausa en ciertos botones
+    */
+    changePlayPause = () =>{
+        $(".song-wrap").click(function() {
+            $(".icon-play", this).hide();
+            $(".icon-pause", this).show();
+        });
+    }
+
+
+    /**
+    * Muestra u oculta el input de busqueda del header
+    */
+    inputSearchToggleDisplay = () => {
+        $(".input-group-prepend").click(function() {
+            $(this).siblings().toggle().css("display", "width");
         });
     }
 

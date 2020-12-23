@@ -95,6 +95,35 @@ class Single {
 
     }
 
+
+    /**
+    * Inicializa carrucel de las noticias relacionadas de la nota
+    */
+    carouselSingleNoticiasRelacionadas = () =>{
+        
+        if(!$('#single-news-slider')[0]) return;
+
+        $('#single-news-slider').owlCarousel({
+            loop:true,
+            margin:10,
+            nav: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                768:{
+                    items:2
+                },
+                850:{
+                    items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        });
+    }
+
 }
 
 export default Single;

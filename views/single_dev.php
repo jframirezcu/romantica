@@ -17,9 +17,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Site proper css -->
- 	<link rel="stylesheet" href="../includes/css/single.css">
+ 	<link rel="stylesheet" href="../includes/css/single.css" id="js-style-site">
     
-    <script src="" data-path="" id="js-mega-script"></script>
+    <script src="//servicios-mega.mdstrm.com/resources/js/dfp/dfp-2.2.min.js" data-path="/romantica.cl/noticias/interior/" id="js-mega-script"></script>
+
 
  </head>
  <body>
@@ -375,7 +376,6 @@
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
  	
     <!-- site proper styles -->
-    <script  src="../includes/js/dist/script.min.js"></script>
     <script  src="../includes/js/dist/main.min.js?r=<?php echo rand(1,9999); ?>"></script>
     <script  src="../includes/js/dist/_main.js?r=<?php echo rand(1,9999); ?>"></script>
  </body>
