@@ -68,7 +68,7 @@ jQuery(document).ready(function() {
     });
     if (window.screen.width >= 768) {
         $( window ).scroll(function() {
-            if ($(window).scrollTop() > 0) {
+            if ($('html,body').scrollTop() > 0) {
                 $( ".fixed-dropdown" ).fadeIn();
                 $( ".scroll-none" ).addClass("hide");
             }
