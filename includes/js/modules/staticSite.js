@@ -31,10 +31,10 @@ const loadContentStatic = (url=false) => {
 		//parsea el html retornado y asigna los valores que necesita
 		let parser    = new DOMParser();
 		let dom       = parser.parseFromString(html, "text/html");
-		let content   = dom.querySelector('.js-content-static').innerHTML;
 		let headTitle = dom.title;
-		let path_mega = dom.querySelector('#js-mega-script').dataset.path;
-		let src_style = dom.querySelector('#js-style-site').href || '';
+		let content   = dom.querySelector('.js-content-static') ? dom.querySelector('.js-content-static').innerHTML : '';
+		let path_mega = dom.querySelector('#js-mega-script') ? dom.querySelector('#js-mega-script').dataset.path : '';
+		let src_style = dom.querySelector('#js-style-site') ? dom.querySelector('#js-style-site').href : '';
 		
 		//si no hay contenido, retorna sin hacer nada
 		if(!content)
@@ -42,9 +42,12 @@ const loadContentStatic = (url=false) => {
 
 		//asigna los datos nuevos a la pagina actual
 		document.title                                         = headTitle;
-		document.querySelector('#js-mega-script').dataset.path = path_mega;
-		document.querySelector('#js-style-site').href          = src_style;
 		document.querySelector('.js-content-static').innerHTML = content;
+		
+		if(path_mega!=='')
+			document.querySelector('#js-mega-script').dataset.path = path_mega;
+		if(src_style!=='')
+			document.querySelector('#js-style-site').href = src_style;
 
 		//cambia la url actual por la nueva y agrega la entrada en el historial
 		history.pushState({article : url}, headTitle, url);
