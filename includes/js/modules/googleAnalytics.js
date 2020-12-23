@@ -10,10 +10,14 @@ const sendViewGA = (data={}) =>{
         if(typeof data.page_path=='string' && data.page_path!='' )
             page_path = data.page_path;
     }
-	
+
 	ga('set', 'location', page_location);
     ga('set', 'page', page_path);
     ga('send','pageview');
+
+    ga('global.set', 'location', page_location);
+    ga('global.set', 'page', page_path);
+    ga('global.send','pageview');
     
 }
 
