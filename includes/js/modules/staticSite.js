@@ -35,7 +35,7 @@ const loadContentStatic = (url=false) => {
 		let headTitle = dom.title;
 		let content   = dom.querySelector('.js-content-static') ? dom.querySelector('.js-content-static').innerHTML : '';
 		let path_mega = dom.querySelector('#js-mega-script') ? dom.querySelector('#js-mega-script').dataset.path : '';
-		let src_style = dom.querySelector('#js-style-site') ? dom.querySelector('#js-style-site').href : '';
+		// let src_style = dom.querySelector('#js-style-site') ? dom.querySelector('#js-style-site').href : '';
 		
 		//si no hay contenido, retorna sin hacer nada
 		if(!content)
@@ -47,8 +47,8 @@ const loadContentStatic = (url=false) => {
 		
 		if(path_mega!=='')
 			document.querySelector('#js-mega-script').dataset.path = path_mega;
-		if(src_style!=='')
-			document.querySelector('#js-style-site').href = src_style;
+		// if(src_style!=='')
+		// 	document.querySelector('#js-style-site').href = src_style;
 
 		//cambia la url actual por la nueva y agrega la entrada en el historial
 		history.pushState({article : url}, headTitle, url);
@@ -63,7 +63,7 @@ const loadContentStatic = (url=false) => {
 				single.loadSingleFunctions(); // inicializa las funciones del single
 				home.loadHomeFunctions();
 				nowLastSong.lastSong();
-				initEventAjax('.js-content-static .js-link-static a'); // inicializa los nuevos enlaces cargados
+				startEventAjaxCustomLink('.js-content-static .js-link-static a'); // inicializa los nuevos enlaces cargados
 				googleAnalytics.sendViewGA(); //envia el pageview de la nueva pagina
 			},100);
 		}
@@ -142,6 +142,10 @@ const startEventAjax = () =>{
 	initEventAjax( '.js-link-static a' );
 }
 
+const startEventAjaxCustomLink = (element_selector='.js-link-static a') =>{
+	initEventAjax( element_selector );
+}
+
 
 
 startEventAjax();
@@ -149,5 +153,6 @@ startEventAjax();
 
 //exporta funciones
 export {
-	startEventAjax
+	startEventAjax,
+	startEventAjaxCustomLink
 }

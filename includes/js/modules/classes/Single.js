@@ -1,3 +1,4 @@
+import * as staticSite from '../staticSite';
 
 class Single {
     constructor() {
@@ -87,6 +88,10 @@ class Single {
 
 
             });
+
+            //carga el evento click para cargar por ajax
+            staticSite.startEventAjaxCustomLink('.js-single-relations .js-link-static a');
+            
             
 
         }catch(error){
