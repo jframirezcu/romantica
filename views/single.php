@@ -17,11 +17,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- Site proper css -->
- 	<link rel="stylesheet" href="../includes/css/single.css">
+ 	<link rel="stylesheet" href="../includes/css/main.css">
  </head>
  <body>
     <!-- Parallax-container -->
-    <div class="site-parallax">
+    <div class="site-parallax single-styles">
         <!-- File stored in views/includes -->
     	<?php include 'includes/header.php'; ?>
         <!-- End Header -->

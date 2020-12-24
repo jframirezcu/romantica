@@ -2,8 +2,7 @@
 @import "base/*.styl"
 @import "icons/*.styl"
 
-@import "partials/_header.styl"
-@import "partials/_footer.styl"
+@import "partials/*.styl"
 
 body
 	font-family "CeraPro"
@@ -39,3 +38,559 @@ a
 	background-size 30%
 	@media (max-width 767px)
 		background-image none
+		
+//index
+.index-styles
+	.main-card
+		.card-body
+			padding 15px 10px 
+		.card-text 
+			height 60px
+		.card-img-wrap
+			img
+				height 100%
+				width 100%
+				object-fit cover
+				border-radius 8px 
+	.news-index-section
+		.card-img-wrap
+			@media (min-width 968px)
+				height 200px
+			@media (max-width 967px)
+				height 180px
+			
+
+
+	.music-slider-container
+		background linear-gradient(top, var(--color1-x1), var(--color1-x0))
+		border-radius 5px
+		.section-title-container
+			padding-right 15px
+			@media (max-width 767px)
+				padding-right 0
+			.section-title
+				padding 0 15px
+				span 
+					color white
+				h2
+					color var(--color1-x0)
+					letter-spacing -4px
+		.owl-dots
+			margin-top 15px !important
+			@media (min-width 767px)
+				padding-bottom 10px
+		.view-more
+			@media (max-width 767px)
+				margin-top 10px
+		.owl-carousel
+			width 95%
+			margin 0 auto
+			
+	.banner-lg
+		height auto
+		margin 20px auto
+
+	.more-news
+		@media (max-width 967px)
+			margin-top 15px
+		.card
+			@media (min-width 968px)
+				.card-img-wrap
+					height 200px
+			@media (max-width 967px)
+				flex-direction unset
+				height 125px
+				.card-img-wrap
+					width 40%
+					height 120px
+				.card-body
+					width 60%
+				.date-time
+					justify-content flex-end
+		.card-body
+			@media (min-width 968px)
+				height 115px !important
+		.card-text
+			margin-top 5px
+			height 60px
+
+	.section-title-container
+		@media (max-width 967px)
+			margin 15px 0 20px 0
+			
+//news-landing
+.news-landing-styles
+	.main-card
+		.card-title
+			font-size 1.2em !important
+		.card-text
+			font-size 1em !important
+			height 52px
+		.date-time
+			font-size 0.9em !important
+		.card-img-wrap
+			@media (min-width 968px)
+				height 230px
+			@media (max-width 967px)
+				height 200px
+			img
+				height 100%
+				width 100%
+				object-fit cover
+				border-radius 8px 
+			
+	.last-songs-container
+		.section-title
+			.subtitle
+				left 2px
+				
+//our-cities
+.our-cities-styles
+	.hide-xs
+		@media (max-width 550px)
+			display none !important 
+
+	.main-card
+		.card-img-wrap
+			height 170px
+			.news-hover
+				position absolute
+				top 0
+				right 0
+				height inherit
+				display none
+			img
+				width 100%
+				height 100%
+				object-fit cover
+				border-radius 8px
+		.card-body
+			height 100px
+			background-image url($img"news-wave-img.png")
+			background-repeat no-repeat
+			background-position bottom right
+			.card-title
+				font-size 1.1em 
+		&:hover
+			.news-hover
+				display block
+				
+//romantica-live
+.romantica-live-styles
+	.live-player-section
+		background-image url($img"live-section-bg.png")
+		background-size cover
+		background-repeat no-repeat
+		height 550px
+		padding-top 25px
+		padding-bottom 25px
+		margin-bottom 25px
+		.section-title
+			h2
+				color rgba(250,250,250,0.4)
+			.subtitle
+				color white
+				left 2px
+		.iframe-container
+			height 400px
+			iframe, img
+				height 100%
+				width 100%
+				object-fit cover
+			@media (max-width 767px)
+				height 169px
+		@media (max-width 767px)
+			height 270px
+			padding 15px
+			.section-title-container
+				margin-bottom 15px !important
+				margin-top 10px
+
+	.hide-sm
+		@media (max-width 767px)
+			display none !important
+
+	.hide-xs
+		@media (max-width 550px)
+			display none !important
+
+	.card-img-wrap
+		@media (min-width 968px)
+			height 230px
+		@media (max-width 967px)
+			height 200px
+		img
+			height 100%
+			width 100%
+			object-fit cover
+			border-radius 8px 
+		
+	.more-news-section
+		@media (max-width 767px)
+			.card
+				flex-direction unset
+				.card-img-wrap 
+					width 40%
+					height 120px
+				.card-body
+					width 60%
+					padding 10px
+					.card-text
+						font-family "CeraPro"
+			.subtitle
+				font-size 1.5em !important
+		
+				
+	.live-player-section, .more-news-section
+		.section-title-container
+			margin-bottom 10px
+			.section-title
+				.subtitle
+					@media (max-width 767px)
+						position relative
+						top initial
+						left initial
+						line-height 1 
+			
+	.banner-md-2
+		@media (max-width 967px)
+			display none
+
+	.aside-section
+		margin-top 10px
+		
+//show-single
+.show-single-styles
+	// modal styles
+	.modal-content
+		@media (max-width 767px)
+			height 250px
+			img, iframe, video
+				height 100%
+				width 100%
+				object-fit cover
+	.close
+		position absolute
+		right 15px
+		opacity 1
+		span
+			color white
+			font-size 1.8em
+		&:focus
+			outline none 
+
+	// section styles
+	.show-single
+		height 450px
+		background linear-gradient(top, var(--color1-x1), var(--color1-x0))
+		padding 25px 10px
+		margin-bottom 25px
+		z-index 2
+		.section-title-container
+			z-index 0
+			line-height 1
+			.section-title
+				.subtitle
+					position relative
+					color white
+					left 0
+				h2
+					color rgba(250,250,250,0.4)
+					letter-spacing 1.2px
+		.iframe-container
+			z-index 3
+			@media (min-width 768px)
+				height 400px
+				iframe
+					object-fit cover
+		.show-wrap
+			display flex
+			justify-content center
+			.img-wrap
+				margin initial
+				margin-right 30px
+		.show-desc
+			align-self center
+			.rss-tag
+				margin initial
+				margin-top 20px
+		@media (max-width 767px)
+			height auto
+			margin-bottom 0
+			.section-title
+				.subtitle
+					font-size 1.4em 
+				h2 
+					margin-top 10px
+					font-size 1.8em
+					letter-spacing -0.5px !important
+				
+				
+	//overwrite styles on _aside.section.styl
+	.last-songs-container
+		.section-title
+			.subtitle
+				left 2px
+				top 23px
+		.artist, .track-duration
+			color var(--color2-x1)
+		.track-name
+			color #434B46
+			font-family 'CeraProBold'
+		
+	.follow-us-container
+		.section-title
+			.subtitle
+				left 2px
+
+	.news-section
+		@media (max-width 767px)
+			.title-mobile
+				display none
+			.card
+				height 130px
+				img 
+					width 40%
+					height auto
+					object-fit cover
+					border-radius 3px
+				.card-body
+					width 60%
+					padding 10px
+					.card-text
+						font-family "CeraPro"
+						margin-bottom 10px
+					.card-title
+						margin-bottom 10px
+
+	.banner-md-2
+		@media (max-width 967px)
+			display none
+			
+	.card
+		flex-direction unset
+		img, .card-body
+			width 50%
+			
+//shows-landing
+.shows-landing-styles
+	.show-wrap
+		text-align center !important
+		@media (max-width 575px)
+			display flex
+			text-align initial !important
+			margin-bottom 30px
+			.show-desc .rss-tag
+				margin initial
+			.show-desc
+				display flow-root
+				align-self center
+		@media (max-width 485px) 
+			.show-desc
+				width 150px
+		// desktop styles
+		.img-wrap
+			border 3px solid #FA4C81 
+		.show-desc
+			text-transform none
+			h5 
+				color var(--color1-x1)
+				text-transform uppercase
+			p 
+				color var(--color2-x2)
+			.rss-tag
+				background #F0EFEF
+				.icon-container
+					background var(--color2-x2)
+					span
+						color white
+				p
+					color var(--color2-x2)
+		.pink-plus
+			margin -2px auto 0 auto
+			@media (max-width 767px)
+				position absolute
+				bottom -32px 
+				left 43%
+				height 30px
+				width 30px
+		
+			
+//single-styles
+.single-styles
+	p 
+		text-transform none
+
+	.single-main-img
+		border-radius 10px
+		margin-bottom 20px
+		img
+			width 100%
+			height 100%
+			object-fit cover
+			border-radius 10px
+		@media (max-width 767px)
+			height 200px
+			padding 0
+			border-radius 0px 
+			img 
+				border-radius 0px 
+	.single-head
+		.single-title
+			color var(--color1-x1)
+			font-size 2.5em
+			font-family 'CeraProBold'
+			margin-bottom 20px
+			text-transform none
+		.single-sub-title
+			color var(--color2-x1)
+			font-family 'CeraProBold'
+			font-size 1.2em
+		.single-caption
+			display flex
+			justify-content space-between
+			margin-bottom 20px
+			border-bottom 5px solid var(--color1-x1)
+			.single-date-author
+				display flex
+				align-items center
+				color var(--color2-x1)
+				font-size 0.85em
+				.icon-clock, .icon-person
+					padding-right 5px
+					font-size 1.2em
+				.single-date
+					margin-right 10px
+				.single-date, .single-author
+					display flex
+					align-items center
+					background var(--color2-x0)
+					margin-bottom 0
+					padding 5px 10px
+					border-radius 20px
+		@media (max-width 567px)
+			.single-caption 
+				display flow-root
+				.single-date-author
+					margin-bottom 15px
+					margin-top 10px
+		@media (max-width 767px)
+			margin-bottom 0
+			.single-title
+				font-size 1.8em
+			.single-sub-title
+				line-height 1.2
+			
+	.single-text
+		margin-bottom 20px
+		h4
+			color var(--color2-x1)
+			font-family 'CeraProBold'
+			margin-bottom 20px
+			text-transform none
+		p
+			color var(--color2-x1)
+			font-size 1.25em 
+		span
+			color var(--color1-x1)
+			font-family 'CeraProBold'
+		.highlighted-txt
+			width 90%
+			text-align center
+			font-size 2.1em
+			color var(--color1-x1)
+			line-height 1.3
+			margin 15px auto
+		@media (max-width 767px)
+			p 
+				font-size 1.1em
+			.highlighted-txt
+				width 100%
+				font-size 1.5em
+			h4 
+				font-size 1.7em
+			.second-highlighted-txt
+				font-size 1.35em
+			:last-child
+				margin-bottom 0
+			
+	.second-img-container
+		margin-bottom 20px
+		
+	.related-content
+		padding-top 10px
+		padding-bottom 10px
+		border-top 5px solid #F0EFEF
+		border-bottom 5px solid #F0EFEF
+		margin-bottom 20px
+		h5 
+			color var(--color2-x2)
+			font-family 'CeraProBold'
+			margin-bottom 15px
+		.related-content-item
+			display flex
+			border 1px solid var(--color2-x0)
+			border-radius 5px
+			align-items center
+			.thumb-wrap
+				height 94px
+				width 94px
+				margin-right 5px
+				border-radius 5px
+			p 
+				color var(--color2-x1)
+				font-family 'CeraProBold'
+				font-size 0.8em
+				margin-bottom 0	
+				line-height 1.2
+				overflow hidden
+				height 70px
+		@media (max-width 767px)
+			a 
+				margin-bottom 15px
+			.related-content-item p 
+				font-size .95em
+
+	.single-footer
+		margin-bottom 25px
+		
+	.third-slider-container
+		display none
+		
+	.live-player-container
+		@media (max-width 967px)
+			p 
+				margin-bottom 15px
+				
+	.card-img-wrap
+		@media (min-width 968px)
+			height 200px
+		@media (max-width 967px)
+			height 180px
+		img
+			height 100%
+			width 100%
+			object-fit cover
+			border-radius 8px
+		
+	@media (max-width 767px)
+		.more-news-single
+			display none
+		.single-caption
+			margin-bottom 15px
+		.feet-img-rss
+			.icon-container
+				height 35px
+				width 35px
+				margin-right 6px
+			.fb, ,.tw, .wp, .share
+				font-size 1.4em
+		.third-slider-container
+			display block
+			.owl-prev
+				left -5px !important
+			.owl-next
+				right -5px !important
+	@media (min-width 768px) and (max-width 967px)
+		.follow-us-container
+			margin-top 40px
