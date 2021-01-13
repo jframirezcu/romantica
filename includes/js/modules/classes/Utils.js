@@ -54,6 +54,28 @@ class Utils {
     */
     sanitizeString = (str)=>{
         str = str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        str = str.replace(/\'/g, "");
+        str = str.replace(/\"/g, "");
+        str = str.replace(/\,/g, "");
+        str = str.replace(/\./g, "");
+        str = str.replace(/\=/g, "");
+        str = str.replace(/\&/g, "");
+        str = str.replace(/\$/g, "");
+        str = str.replace(/\@/g, "");
+        str = str.replace(/\?/g, "");
+        str = str.replace(/\#/g, "");
+        str = str.replace(/\|/g, "");
+        str = str.replace(/\//g, "");
+        str = str.replace(/\:/g, "");
+        str = encodeURI(str);
+
+        // str = str.replace(/\$/g, "%24");
+        // str = str.replace(/\@/g, "%40");
+        // str = str.replace(/\?/g, "%3F");
+        // str = str.replace(/\#/g, "%23");
+        // str = str.replace(/\|/g, "%7C");
+        // str = str.replace(/\//g, "%2F");
+        // str = str.replace(/\:/g, "%3A");
         return str;
     }
     

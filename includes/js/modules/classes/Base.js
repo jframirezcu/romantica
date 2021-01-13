@@ -35,7 +35,7 @@ class Base {
             if (event.keyCode === 13) {
                 let search    = $(event.target).val();
                 search        = _utils.sanitizeString(search);
-                location.href = global_domain+'/search/'+encodeURI(search)+'/';
+                location.href = global_domain+'/search/'+search+'/';
                 return;
             }
         });
