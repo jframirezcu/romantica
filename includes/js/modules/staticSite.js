@@ -142,14 +142,17 @@ const startEventAjax = () =>{
 	initEventAjax( '.js-link-static a' );
 }
 
+
 const startEventAjaxCustomLink = (element_selector='.js-link-static a') =>{
 	initEventAjax( element_selector );
 }
 
 
 
-startEventAjax();
-
+setTimeout(()=>{
+	startEventAjax();
+	loadAds();
+},200);
 
 //exporta funciones
 export {
