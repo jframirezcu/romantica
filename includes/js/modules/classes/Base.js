@@ -1,4 +1,7 @@
-import Utils from './Utils'
+import Utils from './Utils';
+
+import * as staticSite from '../staticSite';
+
 const _utils = new Utils();
 
 
@@ -35,7 +38,8 @@ class Base {
             if (event.keyCode === 13) {
                 let search    = $(event.target).val();
                 search        = _utils.sanitizeString(search);
-                location.href = global_domain+'/search/'+search+'/';
+                // location.href = global_domain+'/search/'+search+'/';
+                staticSite.setUrlStatic(global_domain+'/search/'+search+'/');
                 return;
             }
         });

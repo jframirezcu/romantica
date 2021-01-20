@@ -136,6 +136,22 @@ const initEventAjax = ( element_text = '') => {
 }
 
 /**
+* Carga una url del sitio para ser cargada por ajax
+*
+* @param {string} url Url a cargar
+*
+* @return {void}
+*/
+const setUrlStatic = (url='') => {
+	if( !url || !_utils.urlIsFromTheSite( url ) || !_utils.returnUrlStatic(url) )
+		return;
+
+	loadContentStatic(url);
+
+}
+
+
+/**
 * Llama a la funcion que inicializa el evento sobre los enlaces que cumplen la regla.
 */
 const startEventAjax = () =>{
@@ -157,5 +173,6 @@ setTimeout(()=>{
 //exporta funciones
 export {
 	startEventAjax,
-	startEventAjaxCustomLink
+	startEventAjaxCustomLink,
+	setUrlStatic
 }
