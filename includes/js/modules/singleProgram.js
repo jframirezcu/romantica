@@ -19,6 +19,37 @@ const iframeTemplate = (url) =>{
             </div>`;
 }
 
+
+/**
+* Funcion que remueve el contenido del modal y quita el evento
+*
+* @param {object} e Elemento del evento
+*/
+const handleClickCloseModal = (e) =>{
+	const modalContent = document.querySelector('.js-modal__content');
+	if(!modalContent)
+		return;
+
+	modalContent.innerHTML = '';
+
+	//quitamos evento para evitar duplicidad del evento al abrir nuevamente el modal
+	e.currentTarget.removeEventListener('click', handleClickCloseModal);
+
+}
+
+
+/**
+* Declara el evento click, cuando se quiere cerrar el modal
+*/
+const closeBgModal = () => {
+
+	const clickBgCloseModal = document.querySelector('#showsModal.show');
+	if(!clickBgCloseModal)
+		return;
+
+	clickBgCloseModal.addEventListener('click', handleClickCloseModal);
+}
+
 /**
 * Inicializa los enlaces que abren el modal, carga la url de la cancion
 */
@@ -29,16 +60,19 @@ const initModal = () =>{
 		return;
 
 	modals.forEach((element, i)=>{
-		element.onclick = (e)=>{
+		element.addEventListener('click', (e)=>{
 			const link         = e.currentTarget;
 			const modalContent = document.querySelector('.js-modal__content');
 			if(!modalContent)
 				return;
 
 			modalContent.innerHTML = iframeTemplate(link.href);
-
-		};
+			setTimeout(closeBgModal, 500);
+		});
 	});
+
+	// const btnClose = document.querySelector('.js-modal__close');
+	// btnClose.addEventListener('click', handleClickCloseModal );
 
 }
 

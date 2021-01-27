@@ -3,6 +3,7 @@ import Utils from './classes/Utils';
 
 //modulos
 import * as single from './single';
+import * as singleProgram from './singleProgram';
 import * as home from './home';
 import * as nowLastSong from './nowLastSong';
 import * as googleAnalytics from './googleAnalytics';
@@ -61,6 +62,7 @@ const loadContentStatic = (url=false) => {
 			setTimeout(()=>{
 				loadAds(); // carga la publicidad
 				single.loadSingleFunctions(); // inicializa las funciones del single
+				singleProgram.initSingleProgramFunctions();
 				home.loadHomeFunctions();
 				nowLastSong.lastSong();
 				startEventAjaxCustomLink('.js-content-static .js-link-static a'); // inicializa los nuevos enlaces cargados
